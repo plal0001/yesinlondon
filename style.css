@@ -1895,16 +1895,14 @@ section.galeria a {
 
 /* Resaltar botón "Confirmar asistencia" */
 .boton.confirmar-asistencia {
-  background: linear-gradient(135deg, #ffd166 0%, #ff8a00 100%); /* degradado cálido */
+  background: linear-gradient(135deg, #1c9530 0%, #318352 100%); /* degradado cálido */
   color: #1b2a14; /* texto oscuro para contraste */
   font-weight: 700;
-  box-shadow: 0 10px 25px rgba(255,138,0,0.18), 0 4px 8px rgba(0,0,0,0.08);
   border: none;
   padding: 16px 36px;
   min-width: 260px;
   border-radius: 14px;
   text-shadow: 0 1px 0 rgba(255,255,255,0.18);
-  transition: transform 0.18s ease, box-shadow 0.18s ease, opacity 0.18s ease;
 }
 
 .boton.confirmar-asistencia:hover,
