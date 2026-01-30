@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Input Values</title>
+</head>
+
+<body>
+    <label for="entry.514797571">Entry 1:</label>
+    <input type="text" id="entry.514797571"><br><br>
+
+    <label for="entry.678186433">Entry ABC:</label>
+    <input type="text" id="entry.678186433"><br><br>
+
+    <button onclick="getValues()">Get Values</button><br><br>
+
+    <script>
+        function getValues() {
+            var entry514797571 = document.getElementById("entry.514797571").value;
+            var entry678186433 = document.getElementById("entry.678186433").value;
+
+            console.log("Entry 1 value:", entry514797571);
+            console.log("Entry ABC value:", entry678186433);
+
+            var url="https://docs.google.com/forms/d/e/1FAIpQLScVLu_WyZkMXAofNb50KGylKjknF6r626YZG1o-Tyday_YMKg/formResponse?usp=pp_url&entry.514797571=respuesta1&entry.678186433=respuesta2"
+
+            url= url.replace("respuesta1", encodeURIComponent(entry514797571));
+            url = url.replace("respuesta2", encodeURIComponent(entry678186433));
+            console.log(url);
+
+            var myHeaders = new Headers();
+            myHeaders.append("Cookie", "COMPASS=spreadsheet_forms=CjIACWuJV_hC0crvSMwbB30DkH6z05mcjtY_f67A_Au-LMlTkPFO7dvNMUoIDQh4nAUbsBCHzaewBhpDAAlriVdE2FqMBNka9k895dXZff-MAy_-yhbcdidipFzFaqomgK-TmpPiJEhNxALE84CY0_0llGYDU4p0FbNhFhQL0w==; S=spreadsheet_forms=9nt8WoT0mEPKswqFlm7r9JOp4xi2JosrlxnY2qoxHyI; NID=512=qEROnSK0mDn2fBfPjCu_vqNQYtriGDUPxt_-zlNdfkJC-9GsFwr8bHYMC0NRzif29tNMcHIRHmi_Sx665QynDHhOJIOo_PJSdF1lf-GtC_AvGmFaPK-3fs-cLqMGo0IuKHFNQ2_Kq-K1Y5k_5n19bzAC8D-7j0-3bsN8Ti1krow");
+
+            var requestOptions = {
+                method: 'POST',
+                mode: 'no-cors',
+                headers: myHeaders,
+                redirect: 'follow'
+            };
+
+            fetch(url, requestOptions)
+                .then(response => response.text())
+                .then(result => console.log(result))
+                .then(console.log("done"))
+        }
+    </script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+<!--
+
+    <script>
+        function replaceParameter() {
+            // Get the value from the input field
+            var parameterValue = document.getElementById("entry").value;
+            
+            // URL with PARAMETER placeholder
+            var url = "https://docs.google.com/forms/d/e/1FAIpQLScVLu_WyZkMXAofNb50KGylKjknF6r626YZG1o-Tyday_YMKg/formResponse?usp=pp_url&entry.1957739146=Option+1&entry.678186433=PARAMETER";
+            
+            // Replace PARAMETER with the input value
+            var replacedUrl = url.replace("PARAMETER", encodeURIComponent(parameterValue));
+            
+            // Redirect to the replaced URL
+            window.location.href = replacedUrl;
+        }
+    </script>
+<!--https://docs.google.com/forms/d/e/1FAIpQLScVLu_WyZkMXAofNb50KGylKjknF6r626YZG1o-Tyday_YMKg/viewform?usp=pp_url&entry.514797571=respuesta1&entry.678186433=respuesta2-->

@@ -1,0 +1,21 @@
+button, input, optgroup, select, textarea  #subir_fotos{
+    text-align: center;
+    background: none;
+    resize: none;
+    outline: none;
+    padding-bottom: 5px;
+    color: #655b58;
+    border: none;
+    border-bottom: 1px solid #89b984;
+}
+
+textarea{
+    text-align: center;
+    background: none;
+    resize: none;
+    outline: none;
+    padding-bottom: 5px;
+    color: #655b58;
+    border: 1px solid #89b984;
+    border-radius: 5px;
+}

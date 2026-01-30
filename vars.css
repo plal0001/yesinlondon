@@ -1,0 +1,123 @@
+:root{
+
+
+    /* Paleta colores */
+/* Nueva Paleta de Verdes */
+--color-pallete-1: #2d462c;  /* Verde oscuro para textos (contraste alto) */
+--color-pallete-2: #89b984;  /* Tu verde principal (botones y detalles) */
+--color-pallete-3: #a3c99f;  /* Verde medio (acentos suaves) */
+--color-pallete-4: #5a7d56;  /* Verde bosque (bordes y sombras) */
+--color-pallete-5: #f7faf6;  /* Fondo casi blanco con un toque verde */
+--color-pallete-6: #edf3eb;
+
+  /* ----------------------- */
+
+  /* Generales */
+  --color-fondo-loader: var(--color-pallete-6);
+  --color-loader: var(--color-pallete-2);
+  --color-fondo-body: var(--color-pallete-1);
+  --color-sombra-container-body: var(--color-pallete-1);
+  --color-scroll-track: var(--color-pallete-6);
+  --color-scroll-thumb: var(--color-pallete-3);
+  --color-scroll-thumb-hover: var(--color-pallete-2);
+  --color-fondo-secciones-1: var(--color-pallete-6);
+  --color-fondo-secciones-2: var(--color-pallete-5);
+  --color-titulos: var(--color-pallete-1);
+  --color-subtitulos: var(--color-pallete-2);
+  --color-fondo-btns: var(--color-pallete-3);
+  --color-fondo-btns-hover: var(--color-pallete-4);
+  --color-txt-btns: var(--color-pallete-5);
+  --color-txt-btns-hover: var(--color-pallete-5);
+  --color-anim-adorno-titulo: var(--color-pallete-2);
+  --color-adornos-divisor: var(--color-pallete-2);
+  --color-backdrop-modal: var(--color-pallete-6);
+  --color-titulo-modal: var(--color-pallete-2);
+  --color-adorno-titulo-modal: var(--color-pallete-3);
+  --color-bordes-adornos-modal: var(--color-pallete-3);
+  --color-fondo-col-modal: var(--color-pallete-5);
+  --color-iconos-modales: var(--color-pallete-2);
+  --color-textos-modales: var(--color-pallete-1);
+  --color-x-cierre-modales: var(--color-pallete-2);
+  --color-hover-x-cierre-modales: var(--color-pallete-1);
+  --color-titulo-modal-paises: var(--color-pallete-1);
+  --color-btns-idiomas: var(--color-pallete-3);
+  --color-txt-btns-idiomas: var(--color-pallete-5);
+  --color-hover-btns-idiomas: var(--color-pallete-2);
+  --color-hover-txt-btns-idiomas: var(--color-pallete-1);
+  --color-label-forms: var(--color-pallete-1);
+  --color-bordes-inputs-forms: var(--color-pallete-2);
+  --color-placeholders-forms: var(--color-pallete-1);
+  --color-checkbox: var(--color-pallete-2);
+  --color-inputs-form: var(--color-pallete-1);
+  --color-input-focus: var(--color-pallete-3);
+  --color-titulo-form-enviado: var(--color-pallete-2);
+  --color-texto-form-enviado: var(--color-pallete-1);
+  --color-iniciales: var(--color-pallete-1);
+  --color-nombres: var(--color-pallete-1);
+  --color-ampersand: var(--color-pallete-2);
+
+  /* ----------------------- */
+
+  /* Musica */
+  --color-backdrop-modal-musica: var(--color-pallete-6);
+  --color-circulos-anim-reproductor: var(--color-pallete-3);
+  --color-nota-anim-reproductor: var(--color-pallete-2);
+  --color-esquinas-modal-musica: var(--color-pallete-2);
+  --color-txt-bienvenida: var(--color-pallete-4);
+  --color-txt-recomienda-musica: var(--color-pallete-1);
+  --color-adorno-modal-musica: var(--color-pallete-2);
+
+  /* Portada */
+  --color-fecha-portada: var(--color-pallete-1);
+  --color-esquinas-portada: var(--color-pallete-2);
+  --color-frase-portada: var(--color-pallete-1);
+  --color-adorno-frase-portada: var(--color-pallete-2);
+
+  /* Cuenta regresiva */
+  --color-titulo-cuenta-regresiva: var(--color-pallete-1);
+  --color-numeros-cuenta-regresiva: var(--color-pallete-4);
+  --color-texto-cuenta-regresiva: var(--color-pallete-1);
+  --color-anim-cta-regresiva: var(--color-pallete-3);
+  --color-divisores-cta-regresiva: var(--color-pallete-2);
+  --color-msjfinal-cta-regresiva: var(--color-pallete-3);
+
+  /* Eventos */
+  --color-bordes-adornos-evento: var(--color-pallete-3);
+  --color-fondo-col-evento: var(--color-pallete-5);
+  --color-anim-eventos: var(--color-pallete-3);
+  --color-titulos-eventos: var(--color-pallete-1);
+  --color-subtitulos-eventos: var(--color-pallete-4);
+  --color-adorno-titulo-eventos: var(--color-pallete-3);
+  --color-textos-eventos: var(--color-pallete-1);
+
+  /* Galeria */
+  --color-anim-galeria: var(--color-pallete-3);
+  --color-fondo-polaroid: var(--color-pallete-9);
+  --color-fondo-polaroid-centro: var(--color-pallete-3);
+  --color-bullet-galeria: var(--color-pallete-2);
+  --color-modal-galeria: var(--color-pallete-2);
+
+  /* Fiesta */
+  --color-fondo-item-fiesta: var(--color-pallete-5);
+  --color-titulos-cards: var(--color-pallete-1);
+  --color-txt-cards: var(--color-pallete-1);
+  --color-anim-cards: var(--color-pallete-3);
+  --color-bordes-adornos-cards: var(--color-pallete-3);
+
+  /* Regalos */
+  --color-anim-regalos: var(--color-pallete-3);
+
+  /* Instagram */
+  --color-anim-instagram: var(--color-pallete-3);
+  --color-fondo-hashtag: var(--color-pallete-5);
+  --color-link-instagram: var(--color-pallete-2);
+
+  /* Footer */
+  --color-links-footer: var(--color-pallete-2);
+  --color-links-footer-hover: var(--color-pallete-1);
+  --color-fondo-firma: var(--color-pallete-2);
+  --color-txt-firma: var(--color-pallete-5);
+  --color-link-firma: var(--color-pallete-5);
+  --color-link-firma-hover: var(--color-pallete-1);
+  
+}

@@ -1,0 +1,289 @@
+/* Mobile */
+@media only screen and (max-width: 767px) {
+
+  #modalMusica .modal-content p {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  #modalMusica .modal-content p+span {
+    font-size: 15px
+  }
+
+  #modalMusica .modal-content .boton {
+    margin-bottom: 15px;
+  }
+
+  .title {
+    font-size: 55px;
+    line-height: 40px;
+    padding: 0 15px;
+  }
+
+  .subtitle {
+    font-size: 19px;
+    padding: 0 15px;
+    margin-top: 25px;
+  }
+
+  section.portada .adorno {
+    width: 225px;
+    top: -50px
+  }
+
+  section.portada .content-portada h1 {
+    font-size: 100px;
+    line-height: 65px;
+  }
+
+  section.cuenta-regresiva .box-aros {
+    width: 100%;
+    max-width: 380px;
+    max-height: 380px;
+    min-width: 320px;
+    min-height: 320px;
+  }
+
+  section.portada .box-nombres-fecha-portada h1 span {
+    font-size: 35px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 15px;
+  }
+
+
+
+  section.portada .content-portada span.fecha:before {
+    right: -40px;
+  }
+
+  section.portada .content-portada span.fecha:after {
+    left: -40px;
+  }
+
+  section.portada .content-portada {
+    width: 95%;
+  }
+
+  section.portada .content-portada span.fecha {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  section.portada {
+    padding-bottom: 70%;
+  }
+
+  section.portada .box-frase-portada p {
+    font-size: 20px;
+  }
+
+  section.portada .box-frase-portada {
+    margin-top: 25px;
+  }
+
+  section.portada::after {
+    bottom: -2%;
+  }
+
+  section.cuenta-regresiva .box-aros .box-circulo span.falta {
+    font-size: 40px;
+    margin-top: 0;
+  }
+
+  section.cuenta-regresiva .reloj-col span.number {
+    font-size: 30px;
+  }
+
+  section.footer h4 {
+    font-size: 70px;
+  }
+
+  section.footer h4 span {
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  section.footer .col-acciones-footer ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  section.cuenta-regresiva .reloj-col span.time {
+    font-size: 18px;
+  }
+
+  section.cuenta-regresiva .box-aros .box-circulo {
+    padding: 35px 20px;
+    height: 70%;
+    width: 70%;
+  }
+
+  section.ceremonia-fiesta .adorno {
+    width: 130px;
+    top: 780px;
+    left: -40px;
+  }
+
+  section.ceremonia-fiesta .col-ceremonia h3,
+  section.ceremonia-fiesta .col-fiesta h3 {
+    padding: 8px 30px;
+    font-size: 50px
+  }
+
+  section.ceremonia-fiesta .col-ceremonia .anim-anillos,
+  section.ceremonia-fiesta .anim-fiesta {
+    width: 50%;
+    height: auto;
+    max-width: 175px;
+  }
+
+  section.instagram {
+    padding-top: 35%;
+    padding-bottom: 50%;
+  }
+
+  section.footer {
+    padding-bottom: 20%;
+    padding-top: 30%;
+  }
+
+  section.regalos {
+    padding-top: 90px;
+    padding-bottom: 25%;
+  }
+
+  section.regalos .adorno {
+    width: 130px;
+    top: 200px;
+    left: -40px;
+  }
+
+  section.fiesta {
+    padding-bottom: 35%;
+    padding-top: 35%;
+    background-position-y: 50px;
+  }
+
+  section.ceremonia-fiesta {
+    padding-bottom: 35%;
+  }
+
+  section.galeria {
+    padding-top: 70px;
+  }
+
+  #modalMapa .modal-header .modal-title {
+    font-size: 23px;
+  }
+
+  section.ceremonia-fiesta .info-col .info-box a.boton {
+    min-width: 80%;
+  }
+
+  section.fiesta:after {
+    bottom: -35px;
+  }
+
+  section.instagram:before {
+    top: -2px;
+  }
+
+  section.instagram .hashtag {
+    font-size: 35px;
+  }
+
+  section.instagram:after {
+    bottom: 0;
+  }
+
+  section.fiesta .item-fiesta a.boton {
+    min-width: 100%
+  }
+
+  #controlador-musica {
+    top: initial;
+    bottom: 0;
+    right: 0;
+  }
+
+  .music-anim-icon {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+  }
+
+  section.footer .col-acciones-footer ul li {
+    text-align: center;
+  }
+
+  section.cuenta-regresiva {
+    height: 240px
+  }
+
+  section.ceremonia-fiesta:after {
+    bottom: -2px;
+  }
+
+  .modal-dialog .modal-icon {
+    top: -55px;
+  }
+
+  .modal-card .img-top-modal {
+    height: 90px;
+  }
+
+  section.fiesta .item-fiesta .adorno-1 {
+    position: absolute;
+    top: -80px;
+    left: -35px;
+    z-index: -1;
+    width: 150px;
+  }
+
+  .modal-card .img-top-modal .adorno-1 {
+    width: 90%;
+    min-width: 280px;
+    max-width: 400px;
+    top: -130px;
+  }
+
+  section.cuenta-regresiva p.fin-cuenta {
+    padding: 20px 0 0 0;
+  }
+
+}
+
+
+/* De tablet a Descktop */
+@media only screen and (min-width: 992px) {
+
+  .content-fotos .shadow-left {
+    display: block;
+    position: absolute;
+    left: 0;
+    z-index: 999;
+    height: 150%;
+    width: 6%;
+    background: url('../img/img_sombraGaleria_izq.svg') left center no-repeat;
+    top: -27%
+  }
+
+  .content-fotos .shadow-right {
+    display: block;
+    position: absolute;
+    right: 0;
+    z-index: 999;
+    height: 150%;
+    width: 6%;
+    background: url('../img/img_sombraGaleria_der.svg') right center repeat-y;
+    top: -27%
+  }
+
+
+}

@@ -1,0 +1,390 @@
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  /* Musica */
+
+  #modalMusica .adorno-esquina {
+    width: 30%;
+    max-width: 100px;
+  }
+
+  #modalMusica .iniciales span {
+    font-size: 85px;
+    line-height: 90px;
+  }
+
+  #modalMusica .iniciales .ampersand-portada {
+    height: 75px;
+  }
+
+  #modalMusica .iniciales {
+    width: 210px;
+  }
+
+  #modalMusica .modal-content {
+    padding: 15px 10px;
+  }
+
+  #modalMusica .modal-content p {
+    font-size: 70px;
+    line-height: 65px;
+    background-size: 120px;
+    background-position-y: 80px;
+    padding-bottom: 20px;
+  }
+
+  #modalMusica .adorno.adorno-modal-musica {
+    width: 75px;
+  }
+
+  #modalMusica .modal-content .boton {
+    margin-bottom: 15px;
+    padding: 12px 15px;
+    font-size: 16px;
+  }
+
+  #modalMusica .modal-content span.aclara-musica {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+
+  #modalMusica .modal-content p.bienvenida-modal-musica {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 21px;
+    line-height: 21px;
+    margin-top: 25px;
+  }
+  #modalMusica .modal-content .nombres-modal-musica p {
+    font-size: 25px;
+    line-height: 25px;
+    padding: 0;
+  }
+
+  #modalMusica .ampersand-modal-musica {
+    width: 140px;
+    top: -10px;
+  }
+
+  /* end Musica */
+
+  /* Generales */
+
+  .title {
+    font-size: 40px;
+    line-height: 40px;
+    padding: 0 15px;
+    margin-bottom: 15px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+    padding: 0 20px;
+    line-height: 25px;
+    margin-top: 0;
+  }
+
+  .boton {
+    font-size: 16px;
+  }
+
+  /* Adornos divisores */
+  .adornos-divisor .adorno-borde {
+    width: 120px;
+  }
+
+  ul.lang-inv {
+    top: -85px;
+  }
+
+  #controlador-musica {
+    top: initial;
+    bottom: 0;
+    right: 0;
+  }
+
+  .music-anim-icon {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+  }
+
+  .box-bordes-adorno .adorno-esquina {
+    width: 25px;
+  }
+
+  .flags-laguages {
+    padding: 5px;
+  }
+
+  section.portada ul.lang-inv {
+    top: 5px;
+    position: relative;
+    margin-bottom: 45px;
+  }
+
+  /* end Generales */
+
+  /* Portada */
+
+  section.portada .sombra-vertical {
+    display: none;
+  }
+
+  section.portada .sombra-horizontal.sombra-top {
+    display: inline-block;
+  }
+
+  section.portada .portada-container .adorno-esquina {
+    width: 35%;
+    max-width: 160px;
+  }
+
+  section.portada .portada-container .adorno-esquina-0 {
+    top: 30px;
+    left: 10px;
+  }
+  section.portada .portada-container .adorno-esquina-1 {
+    top: 30px;
+    right: 10px;
+  }
+  section.portada .portada-container .adorno-esquina-2 {
+    bottom: 30px;
+    left: 10px;
+  }
+  section.portada .portada-container .adorno-esquina-3 {
+    bottom: 30px;
+    right: 10px;
+  }
+
+  section.portada .content-portada h1 {
+    font-size: 80px;
+    line-height: 85px;
+  }
+
+  section.portada .box-nombres-fecha-portada .ampersand-portada {
+    width: 160px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  section.portada .portada-picture {
+    width: 100%;
+    height: 460px;
+    position: relative;
+  }
+
+  section.portada .adorno-1,
+  section.portada .adorno-2,
+  section.portada .adorno-3,
+  section.portada .adorno-4 {
+    display: none;
+  }
+
+  section.portada .portada-container .row.d-flex {
+    height: 590px;
+    margin-top: -25px;
+  }
+
+  section.portada .portada-container {
+    width: 100%;
+    padding-bottom: 0;
+  }
+
+  section.portada .content-portada span.fecha {
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 0;
+  }
+  section.portada .box-frase-portada p {
+    font-size: 20px;
+    line-height: 25px;
+    padding: 0 22px;
+  }
+
+  section.portada .box-frase-portada {
+    margin-top: 50px;
+  }
+
+  /* end Portada */
+
+  /* Cuenta regresiva */
+
+  section.cuenta-regresiva .adorno-1 {
+    position: absolute;
+    width: 235px;
+    top: 0px;
+    left: 20px;
+  }
+
+  section.cuenta-regresiva .reloj-col span.number {
+    font-size: 35px;
+  }
+
+  section.cuenta-regresiva .reloj-col span.time {
+    font-size: 22px;
+  }
+
+  section.cuenta-regresiva .reloj {
+    margin-top: 5px;
+  }
+
+  /* end Cuenta regresiva */
+
+  /* Eventos */
+
+  section.ceremonia-fiesta .box-color-col {
+    width: 90%;
+  }
+
+  section.ceremonia-fiesta .col-ceremonia h3,
+  section.ceremonia-fiesta .col-fiesta h3 {
+    padding: 8px 30px;
+    font-size: 35px;
+  }
+
+  section.ceremonia-fiesta .col-ceremonia .anim-anillos,
+  section.ceremonia-fiesta .anim-fiesta {
+    width: 50%;
+    min-width: 150px;
+    max-width: 190px;
+    height: auto;
+  }
+
+  section.ceremonia-fiesta .col-ceremonia,
+  section.ceremonia-fiesta .col-fiesta {
+    padding: 10px;
+  }
+
+  section.ceremonia-fiesta .col-ceremonia {
+    margin-bottom: 45px;
+  }
+
+  section.ceremonia-fiesta .box-bordes-adorno {
+    width: 95%;
+  }
+
+  section.ceremonia-fiesta .info-col .info-box p {
+    font-size: 17px;
+    padding: 0 20px;
+  }
+  /* end Eventos */
+
+  /* Galeria */
+
+  section.galeria .content-fotos .polaroid {
+    padding-bottom: 15px;
+  }
+
+  section.galeria .box-bordes-adorno {
+    padding: 40px 25px 35px;
+  }
+
+  /* end Galeria */
+
+  /* Fiesta */
+
+  section.fiesta .item-fiesta .content-item-fiesta {
+    padding: 20px;
+  }
+
+  /* end Fiesta */
+
+  /* Instagram */
+
+  section.instagram .hashtag {
+    font-size: 35px;
+  }
+
+  /* end Instagram */
+
+  /* Footer */
+
+  section.footer .col-nombres-footer {
+    padding: 20px 0;
+  }
+
+  section.footer .col-nombres-footer .iniciales {
+    margin-bottom: 10px;
+  }
+
+  section.footer .col-acciones-footer ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  section.footer .container {
+    padding: 60px 0;
+  }
+
+  section.footer .col-acciones-footer ul a,
+  section.footer .addeventatc span.nameBtn {
+    font-size: 20px;
+  }
+
+  section.footer .col-nombres-footer .ampersand-footer {
+    width: 160px;
+  }
+
+  section.footer .col-acciones-footer ul li {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  /* end Footer */
+
+  /* Modales */
+
+  .modal .modal-content-2 .modal-header .modal-title {
+    font-size: 25px;
+    line-height: 30px;
+    font-family: var(--fuente-1);
+  }
+
+  .modal .modal-content {
+    padding: 20px 20px;
+  }
+
+  .modal-dialog form label {
+    font-size: 17px;
+  }
+
+  .modal-dialog ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-size: 14px;
+    /* Firefox */
+  }
+
+  .modal-dialog :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    font-size: 14px;
+  }
+
+  .modal-dialog ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    font-size: 14px;
+  }
+
+  .modal.modal-transparent .modal-header h3 {
+    font-size: 25px;
+  }
+
+  #modal-lang .modal-body {
+    padding: 0;
+  }
+
+  /* end Modales */
+
+  /* Forms */
+
+  #modalAsistencia .form-group.custom-radio {
+    padding: 0;
+    margin: 0;
+  }
+
+  /* end Forms */
+}

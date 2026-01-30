@@ -1,0 +1,1438 @@
+/* Generales */
+
+:root {
+
+
+  /* Colores */
+  --color-1: #22443f;
+  --color-2: #81948b;
+  --color-3: #767b35;
+  --color-4: #f5f5f5;
+  --color-5: #fff;
+
+
+  /* Fuentes */
+  --fuente-1: 'Cookie', cursive;
+  --fuente-2: 'Open Sans', sans-serif;
+
+  /* Grosor de fuente */
+  --weight-font-regular: 400;
+  --weight-font-bold: 700;
+
+
+}
+
+
+/* Scroll */
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-5);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: var(--color-2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-3);
+}
+
+/* / Scroll */
+
+.custom-control-label::before {
+  height: 20px;
+  width: 20px;
+}
+
+.custom-control-label::after {
+  height: 20px;
+  width: 20px;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+  color: var(--color-3);
+  border-color: var(--color-3);
+  background-color: var(--color-3);
+  outline: none;
+}
+
+.custom-control-input:focus~.custom-control-label::before {
+  box-shadow: none !important;
+}
+
+.fancybox-bg {
+  background-color: var(--color-3) !important;
+}
+
+.boton {
+  font-family: var(--fuente-2);
+  font-weight: var(--weight-font-bold);
+  background: var(--color-3);
+  color: var(--color-4);
+  text-transform: uppercase;
+  border-radius: 50px;
+  line-height: 15px;
+  font-size: 15px;
+  padding: 15px 20px;
+
+  -webkit-box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.40);
+  -moz-box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.40);
+  box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.40);
+
+  -webkit-transition: all 0.5s 0s ease;
+  -moz-transition: all 0.5s 0s ease;
+  -o-transition: all 0.5s 0s ease;
+  transition: all 0.5s 0s ease;
+}
+
+.boton:hover {
+  background: var(--color-1);
+  color: var(--color-5);
+  text-decoration: none;
+}
+
+.title {
+  font-family: var(--fuente-1);
+  font-weight: var(--weight-font-regular);
+  color: var(--color-1);
+  width: 100%;
+  display: inline-block;
+  font-size: 60px;
+  line-height: 60px;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  font-family: var(--fuente-2);
+  font-weight: var(--weight-font-regular);
+  color: var(--color-1);
+  width: 100%;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+a {
+  -webkit-transition: all 0.5s 0s ease;
+  -moz-transition: all 0.5s 0s ease;
+  -o-transition: all 0.5s 0s ease;
+  transition: all 0.5s 0s ease;
+}
+
+span#error-form {
+  color: red;
+  font-size: 13px;
+}
+
+/* Fondo modales */
+
+.modal-backdrop {
+  background-color: var(--color-4);
+  opacity: 0.95 !important;
+}
+
+.backdrop-modal-musica .modal-backdrop {
+  background-color: var(--color-1);
+  opacity: 1 !important;
+}
+
+.modal-body {
+  flex: inherit;
+}
+
+.modal-transparent .modal-content {
+  background: transparent;
+  border: none;
+}
+
+.modal-transparent .close {
+  color: var(--color-3);
+  text-shadow: none;
+  opacity: 1;
+  position: absolute;
+  right: 35px;
+  outline: none;
+  padding: 0;
+}
+
+.modal-transparent .modal-header,
+.modal-transparent .modal-footer {
+  border: none;
+  padding: 0;
+}
+
+.modal-transparent .modal-header h3 {
+  color: var(--color-1);
+  text-align: center;
+  width: 100%;
+}
+
+.modal-transparent .boton {
+  padding: 15px 50px;
+}
+
+
+
+/* Cambio de idiomas / paises */
+
+.flags-laguages li a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  margin: 10px 8px;
+  border: 2px solid var(--color-5);
+}
+
+.flags-laguages li a:hover {
+  border: 2px solid var(--color-2);
+}
+
+.flags-laguages a.reset-lang {
+  width: 100%;
+  text-align: center;
+  color: var(--color-5);
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.flags-laguages a.reset-lang:hover {
+  text-decoration: underline;
+}
+
+.flags-laguages a.reset-lang img {
+  width: 22px;
+  height: auto;
+  margin-right: 5px;
+}
+
+
+
+/* Loader */
+
+
+.preloader-area {
+  position: fixed;
+  background: var(--color-4);
+  z-index: 11000;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.preloader-area .loader {
+  width: 130px;
+}
+
+/* ---------- */
+
+
+/* Portada */
+section.portada {
+  width: 100%;
+  padding-bottom: 200px;
+  background-size: cover;
+  color: var(--color-5);
+  position: relative;
+}
+
+section.portada::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(74, 79, 96, 0);
+  z-index: 0;
+  top: 0;
+  left: 0;
+}
+
+section.portada::after {
+  background-image: url('../img/curvas01.svg');
+  position: absolute;
+  content: '';
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  height: 100%;
+  width: 100%;
+  bottom: -10%;
+  z-index: 9;
+}
+
+section.portada .adorno {
+  position: absolute;
+  width: 360px;
+  height: auto;
+  top: -90px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section.portada .adorno.adorno-1 {
+  z-index: 1;
+}
+
+section.portada .adorno.adorno-2 {
+  z-index: 2;
+}
+
+section.portada .adorno.adorno-3 {
+  z-index: 3;
+}
+
+section.portada .container .row:first-child {
+  height: 100vh;
+  max-height: 700px;
+}
+
+section.portada .content-portada {
+  width: 75%;
+  z-index: 999;
+  position: relative;
+}
+
+section.portada .content-portada span.fecha {
+  font-family: var(--fuente-2);
+  font-weight: var(--weight-font-regular);
+  color: var(--color-1);
+  display: table;
+  white-space: nowrap;
+  width: 100%;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+section.portada .content-portada span.fecha:before {
+  right: -25%;
+}
+
+section.portada .content-portada span.fecha:after {
+  left: -25%;
+}
+
+section.portada .content-portada span:before,
+section.portada .content-portada span:after {
+  border-top: 1px solid var(--color-2);
+  content: '';
+  display: table-cell;
+  position: relative;
+  top: 0.9em;
+  width: 15%;
+}
+
+section.portada .content-portada h1 {
+  color: var(--color-1);
+  font-family: var(--fuente-1);
+  font-weight: var(--weight-font-regular);
+  width: 100%;
+  text-align: center;
+  font-size: 130px;
+  line-height: 110px;
+  margin-bottom: 0;
+}
+
+section.portada .box-nombres-fecha-portada .line {
+  background-color: var(--color-2);
+  height: 1px;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+section.portada .box-nombres-fecha-portada h1 span {
+  font-family: var(--fuente-2);
+  font-weight: var(--weight-font-regular);
+  background-color: var(--color-2);
+  color: var(--color-4);
+  display: inline-block;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+section.portada .box-frase-portada {
+  margin-top: 35px;
+}
+
+section.portada .box-frase-portada p {
+  color: var(--color-1);
+  font-family: var(--fuente-2);
+  font-weight: var(--weight-font-regular);
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+section.portada .box-frase-portada p img {
+  width: 30px;
+  margin: 10px 0
+}
+
+section.portada .flecha-continuar {
+  width: 50px;
+  position: absolute;
+  bottom: -80px;
+}
+
+
+ul.lang-inv {
+  position: absolute;
+  width: 100%;
+  top: -65px;
+}
+
+ul.lang-inv li {
+  margin: 0 5px;
+}
+
+ul.lang-inv li a {
+  color: var(--color-1);
+  background-color: var(--color-3);
+  font-size: 14px;
+  font-family: var(--fuente-2);
+  font-weight: 400;
+  display: inline-block;
+  line-height: 30px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+ul.lang-inv li a:hover {
+  text-decoration: none;
+  background: var(--color-1);
+  color: var(--color-5)
+}
+
+
+/* ---------- */
+
+
+/* Cuenta regresiva */
+section.cuenta-regresiva {
+  position: relative;
+  height: 360px;
+  background-color: var(--color-5);
+}
+
+section.cuenta-regresiva .box-aros {
+  width: 500px;
+  height: 500px;
+  background: url('../img/contador.png') -15px center no-repeat;
+  background-size: contain;
+  position: absolute;
+  z-index: 99;
+  top: -200px
+}
+
+section.cuenta-regresiva .box-aros .box-circulo {
+  width: 315px;
+  height: 315px;
+}
+
+section.cuenta-regresiva .box-aros .box-circulo span.falta {
+  font-family: var(--fuente-2);
+  font-weight: var(--weight-font-regular);
+  color: var(--color-2);
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  font-weight: 300;
+  font-size: 40px;
+  margin-top: 45px;
+}
+
+section.cuenta-regresiva .box-aros .box-circulo .corazon-falta {
+  width: 18%;
+  margin-top: 5px;
+}
+
+section.cuenta-regresiva .reloj {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+section.cuenta-regresiva .reloj-col {
+  width: 25%;
+  border-right: 1px solid #ccc;
+  padding: 0 8px;
+  float: left;
+}
+
+section.cuenta-regresiva .reloj-col.no-border {
+  border: none;
+}
+
+section.cuenta-regresiva .reloj-col span.number {
+  font-family: var(--fuente-2);
+  font-weight: var(--weight-font-bold);
+  color: var(--color-1);
+  display: inline-block;
+  width: 100%;
+  font-size: 35px;
+}
+
+section.cuenta-regresiva .reloj-col span.time {
+  font-family: var(--fuente-2);
+  font-weight: var(--weight-font-regular);
+  color: var(--color-2);
+  display: inline-block;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+section.cuenta-regresiva p.fin-cuenta {
+  font-size: 30px;
+  line-height: 30px;
+  color: var(--color-3);
+  font-family: var(--fuente-2);
+  font-weight: var(--weight-font-regular);
+  padding: 60px 0 0 0;
+}
+
+
+
+/* ---------- */
+
+
+
+
+/* Ceremonia - Fiesta */
+
+section.ceremonia-fiesta {
+  background: url(../img/lineas01.svg) center 0 no-repeat var(--color-5);
+  padding-bottom: 20%;
+  position: relative;
+}
+
+section.ceremonia-fiesta .adorno {
+  position: absolute;
+  width: 200px;
+  height: auto;
+  top: 280px;
+  left: -30px;
+}
+
+section.ceremonia-fiesta .adorno.adorno-1 {
+  z-index: 1;
+}
+
+section.ceremonia-fiesta .adorno.adorno-2 {
+  z-index: 2;
+}
+
+section.ceremonia-fiesta .adorno.adorno-3 {
+  z-index: 3;
+}
+
+
+section.ceremonia-fiesta .col-ceremonia,
+section.ceremonia-fiesta .col-fiesta {
+  z-index: 999;
+}
+
+
+section.ceremonia-fiesta .col-ceremonia .anim-anillos,
+section.ceremonia-fiesta .anim-fiesta {
+  width: 175px;
+  height: 175px;
+  margin: 0 auto 20px;
+  padding: 20px;
+  background-color: var(--color-4);
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 15px -1px rgba(0, 0, 0, 0.40);
+  -moz-box-shadow: 0px 0px 15px -1px rgba(0, 0, 0, 0.40);
+  box-shadow: 0px 0px 15px -1px rgba(0, 0, 0, 0.40);
+}
+
+
+
+section.ceremonia-fiesta .col-ceremonia .anim-anillos {
+  padding: 25px
+}
+
+section.ceremonia-fiesta .col-fiesta .anim-fiesta {
+  padding: 35px
+}
+
+section.ceremonia-fiesta .col-ceremonia h3,
+section.ceremonia-fiesta .col-fiesta h3 {
+  font-family: var(--fuente-1);
+  font-weight: var(--weight-font-regular);
+  background-color: var(--color-2);
+  color: var(--color-5);
+  font-size: 50px;
+  display: inline-block;
+  position: relative;
+  min-width: 60%;
+  padding: 0;
+}
+
+
+section.ceremonia-fiesta .col-ceremonia h3:after,
+section.ceremonia-fiesta .col-fiesta h3:after {
+  background-image: url(../img/img_cinta02.svg);
+  position: absolute;
+  content: '';
+  background-size: contain !important;
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 100%;
+  width: 16px;
+  right: -15px;
+  top: 0;
+}
+
+section.ceremonia-fiesta .col-ceremonia h3:before,
+section.ceremonia-fiesta .col-fiesta h3:before {
+  background-image: url(../img/img_cinta01.svg);
+  position: absolute;
+  content: '';
+  background-size: contain !important;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 100%;
+  width: 16px;
+  left: -15px;
+  top: 0;
+}
+
+section.ceremonia-fiesta .info-col {
+  margin-top: 30px;
+}
+
+section.ceremonia-fiesta .info-col .info-box {
+  margin-bottom: 45px;
+}
+
+section.ceremonia-fiesta .info-col .info-box h6 {
+  font-family: var(--fuente-2);
+  color: var(--color-2);
+  font-size: 25px;
+  font-weight: 700;
+}
+
+section.ceremonia-fiesta .info-col .info-box p {
+  font-family: var(--fuente-2);
+  font-weight: var(--weight-font-regular);
+  color: var(--color-2);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+section.ceremonia-fiesta .info-col .info-box a.boton {
+  margin-top: 5px;
+  display: inline-block;
+  width: 50%;
+}
+
+section.ceremonia-fiesta:after {
+  background-image: url('../img/curvas02.svg');
+  position: absolute;
+  content: '';
+  background-size: contain !important;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+}
+
+
+section.ceremonia-fiesta .ondas-2 {
+  position: absolute;
+  top: 3%;
+}
+
+section.ceremonia-fiesta .addeventatc .nameBtn {
+  color: var(--color-4);
+}
+
+section.ceremonia-fiesta .addeventatc:hover .nameBtn {
+  color: var(--color-4);
+}
+
+
+/* ---------- */
+
+
+
+
+/* Galeria */
+
+section.galeria {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  position: relative;
+  background-color: var(--color-5);
+}
+
+section.galeria .anim-galeria {
+  width: 70px;
+  margin: 0 auto;
+}
+
+
+section.galeria .content-fotos {
+  margin-top: 40px;
+  position: relative;
+}
+
+section.galeria .content-fotos img {
+  width: 100%;
+}
+
+
+section.galeria .content-fotos .polaroid a {
+  outline: none;
+}
+
+
+section.galeria .content-fotos .polaroid {
+  background-color: var(--color-4);
+  padding: 15px;
+  padding-bottom: 100px;
+  margin: 5px;
+  -webkit-box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.40);
+  -moz-box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.432);
+  box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.40);
+
+  -webkit-transition: all 0.5s 0s ease;
+  -moz-transition: all 0.5s 0s ease;
+  -o-transition: all 0.5s 0s ease;
+  transition: all 0.5s 0s ease;
+}
+
+section.galeria .slick-slide:focus {
+  outline: none !important;
+}
+
+section.galeria .slick-center .polaroid {
+  background-color: var(--color-5) !important;
+}
+
+.content-fotos .shadow-left {
+  display: none;
+}
+
+.content-fotos .shadow-right {
+  display: none;
+}
+
+.slick-dots {
+  bottom: -30px;
+}
+
+
+section.galeria .slick-dots li button:before {
+  font-size: 45px !important;
+  color: var(--color-1) !important;
+  opacity: 0.60;
+}
+
+section.galeria .slick-dots li.slick-active button:before {
+  opacity: 1;
+}
+
+/* ---------- */
+
+
+
+/* Fiesta */
+
+section.fiesta {
+  background: url('../img/lineas02.svg') center top no-repeat var(--color-5);
+  padding-top: 14%;
+  position: relative;
+  padding-bottom: 17%;
+}
+
+section.fiesta .container {
+  z-index: 999;
+  position: relative;
+}
+
+
+section.fiesta .anim-musica {
+  width: 75px;
+  margin: 15px auto 40px auto;
+}
+
+section.fiesta .anim-vestuario {
+  width: 95px;
+}
+
+section.fiesta .anim-tips {
+  width: 55px;
+}
+
+section.fiesta:after {
+  background-image: url('../img/curvas01.svg');
+  position: absolute;
+  content: '';
+  background-size: contain !important;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  height: 100%;
+  width: 100%;
+  bottom: -85px;
+  z-index: 99;
+}
+
+section.fiesta .item-fiesta {
+  margin-top: 60px;
+  padding: 0 40px;
+}
+
+
+section.fiesta .item-fiesta h3 {
+  font-family: var(--fuente-2);
+  font-weight: var(--weight-font-bold);
+  color: var(--color-1);
+}
+
+section.fiesta .item-fiesta p {
+  font-family: var(--fuente-2);
+  font-weight: var(--weight-font-regular);
+  color: var(--color-2);
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+section.fiesta .item-fiesta a.boton {
+  width: 85%
+}
+
+
+section.fiesta .item-fiesta .content-item-fiesta {
+  background-color: var(--color-4);
+  padding: 40px 25px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  min-height: 400px;
+}
+
+section.fiesta .content-anim-fiesta {
+  height: 80px;
+}
+
+section.fiesta .item-fiesta .adorno-1 {
+  position: absolute;
+  top: -115px;
+  left: -60px;
+  z-index: -1;
+  width: 190px;
+}
+
+
+/* ---------- */
+
+
+
+/* Regalos */
+
+
+section.regalos {
+  background-color: var(--color-5);
+  padding-top: 14%;
+  position: relative;
+  padding-bottom: 10%
+}
+
+section.regalos .adorno {
+  position: absolute;
+  width: 200px;
+  height: auto;
+  top: 280px;
+  left: -30px;
+}
+
+section.regalos .adorno.adorno-1 {
+  z-index: 1;
+}
+
+section.regalos .adorno.adorno-2 {
+  z-index: 2;
+}
+
+section.regalos .adorno.adorno-3 {
+  z-index: 3;
+}
+
+section.regalos .anim-regalos {
+  width: 70px;
+  margin: 1px auto 40px;
+}
+
+/* ---------- */
+
+
+/* Instagram */
+
+section.instagram {
+  padding-top: 16%;
+  padding-bottom: 16%;
+  position: relative;
+}
+
+section.instagram .container {
+  position: relative;
+  z-index: 999;
+}
+
+
+section.instagram:before {
+  background-image: url('../img/lineas03.svg');
+  position: absolute;
+  content: '';
+  /* background-size: contain !important; */
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 100%;
+  width: 100%;
+  top: -1px;
+}
+
+
+section.instagram .hashtag {
+  font-family: var(--fuente-2);
+  font-weight: var(--weight-font-bold);
+  color: var(--color-3);
+  text-transform: lowercase;
+  font-size: 55px;
+  margin-bottom: 40px;
+  display: inline-block;
+}
+
+section.instagram .anim-instagram {
+  width: 60px;
+  margin: 0 auto 15px;
+}
+
+section.instagram:after {
+  background-image: url('../img/lineas04.svg');
+  position: absolute;
+  content: '';
+  /* background-size: contain !important; */
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  height: 100%;
+  width: 100%;
+  bottom: -2px;
+  z-index: 99;
+}
+
+
+
+/* ---------- */
+
+
+
+/* Footer */
+
+section.footer {
+  position: relative;
+  background: url('../img/img_texturaFondo.jpg') left top repeat var(--color-5);
+  padding-bottom: 10%;
+  padding-top: 10%;
+  margin-top: -2px;
+}
+
+
+section.footer h4 {
+  font-family: var(--fuente-1);
+  font-weight: var(--weight-font-regular);
+  color: var(--color-1);
+  width: 100%;
+  text-align: center;
+  font-size: 85px;
+}
+
+section.footer h4 span {
+  font-family: var(--fuente-2);
+  font-weight: var(--weight-font-regular);
+  color: var(--color-5);
+  background-color: var(--color-2);
+  display: inline-block;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 28px;
+}
+
+section.footer .col-acciones-footer ul {
+  text-transform: uppercase;
+  font-family: var(--fuente-2);
+  font-weight: var(--weight-font-regular);
+  text-align: left;
+}
+
+
+section.footer .col-acciones-footer ul li {
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+
+section.footer .col-acciones-footer ul a {
+  color: var(--color-3);
+
+  -webkit-transition: all 0.5s 0s ease;
+  -moz-transition: all 0.5s 0s ease;
+  -o-transition: all 0.5s 0s ease;
+  transition: all 0.5s 0s ease;
+}
+
+
+section.footer .col-acciones-footer ul a:hover {
+  color: var(--color-1);
+  text-decoration: none;
+}
+
+
+section.footer .addeventatc span.nameBtn {
+
+  color: var(--color-3) !important;
+  font-weight: var(--weight-font-regular);
+
+  -webkit-transition: all 0.5s 0s ease;
+  -moz-transition: all 0.5s 0s ease;
+  -o-transition: all 0.5s 0s ease;
+  transition: all 0.5s 0s ease;
+}
+
+section.footer .addeventatc span.nameBtn:hover {
+  color: var(--color-1) !important;
+}
+
+
+/* ---------- */
+
+
+/* Musica de fondo */
+
+#player-musica-fondo {
+  position: absolute;
+  left: -99999px;
+}
+
+#controlador-musica {
+  position: fixed;
+  z-index: 999;
+  top: 10px;
+  right: 0;
+}
+
+.music-anim-icon {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+/* ---------- */
+
+
+/* Footer */
+
+footer {
+  background-color: var(--color-3);
+  font-family: var(--fuente-2);
+  font-weight: var(--weight-font-regular);
+  font-weight: 400;
+  padding: 20px 0;
+}
+
+
+
+/* ---------- */
+
+
+/* Firma */
+
+footer p {
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 1rem;
+  color: var(--color-5);
+}
+
+footer p a {
+  color: var(--color-5);
+  display: inline-flex;
+
+  -webkit-transition: all 0.5s 0s ease;
+  -moz-transition: all 0.5s 0s ease;
+  -o-transition: all 0.5s 0s ease;
+  transition: all 0.5s 0s ease;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+  color: var(--color-5)
+}
+
+footer img.firma-footer {
+  width: 65px;
+  height: auto;
+}
+
+
+/* ---------- */
+
+
+
+/* Modal Musica */
+
+#modalMusica .modal-content {
+  background: transparent;
+  border: none;
+}
+
+#modalMusica .modal-content p {
+  font-size: 55px;
+  font-weight: var(--weight-font-bold);
+  line-height: 50px;
+  font-family: var(--fuente-2);
+  color: var(--color-5);
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+#modalMusica .modal-content p::after {
+  content: '';
+  position: absolute;
+  background-color: var(--color-4);
+  width: 40%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#modalMusica .modal-content p span {
+  font-size: 20px;
+  font-weight: var(--weight-font-regular);
+}
+
+#modalMusica .modal-content p+span {
+  font-size: 20px;
+  color: var(--color-5);
+  font-weight: 300;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  display: inline-block;
+  width: 100%;
+}
+
+#modalMusica .boton {
+  font-size: 15px;
+  font-weight: var(--weight-font-regular);
+  display: inline-block;
+  border: 1px solid var(--color-1);
+}
+
+#modalMusica .boton:hover {
+  border: 1px solid var(--color-4);
+}
+
+
+/* Modales Card */
+
+.modal-dialog {
+  font-family: var(--fuente-2);
+}
+
+.modal-dialog .modal-title {
+  font-weight: 700;
+  color: var(--color-2);
+}
+
+.modal-dialog form label {
+  color: var(--color-2);
+}
+
+.modal-dialog form input,
+.modal-dialog form textarea {
+  border: none;
+  border-bottom: 1px solid var(--color-2);
+}
+
+.modal-dialog .modal-icon {
+  width: 125px;
+  height: 125px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: var(--color-5);
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 15px -1px rgba(0, 0, 0, 0.40);
+  -moz-box-shadow: 0px 0px 15px -1px rgba(0, 0, 0, 0.40);
+  box-shadow: 0px 0px 15px -1px rgba(0, 0, 0, 0.40);
+  position: relative;
+  top: -75px;
+}
+
+.modal-card .modal-content {
+  font-family: var(--fuente-2);
+  font-weight: var(--weight-font-regular);
+  color: var(--color-2);
+  cursor: pointer;
+  background-color: #fff;
+  text-align: center;
+  border: none;
+  padding: 10px 10px 30px 10px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  -webkit-box-shadow: 0px 0px 15px 0px var(--color-2);
+  box-shadow: 0px 0px 15px 0px var(--color-2);
+
+}
+
+.modal-card input,
+.modal-card textarea {
+  text-align: center;
+  background: none;
+  resize: none;
+  outline: none;
+  padding-bottom: 5px;
+}
+
+.modal-card input:focus,
+.modal-card textarea:focus {
+  border: none;
+  box-shadow: none;
+}
+
+.modal-card .modal-header {
+  border: none;
+  display: inline-block;
+  padding: 0;
+}
+
+
+.modal-card .modal-header .modal-title {
+  font-size: 25px;
+  line-height: 28px;
+  font-family: var(--fuente-2);
+  font-weight: var(--weight-font-bold);
+  color: var(--color-1);
+}
+
+.modal-card .modal-footer {
+  border: none;
+  display: inline-block;
+  padding: 0;
+}
+
+.modal-card .form-group .form-check {
+  float: left;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.modal-card .form-group .form-check label {
+  padding-left: 5px;
+}
+
+.modal-card .boton {
+  outline: none;
+  border: none;
+}
+
+.modal-card .img-top-modal {
+  position: relative;
+  height: 65px;
+}
+
+.modal-card .img-top-modal img {
+  width: 100%;
+}
+
+#modalSugerirCancion.modal-card .img-top-modal .modal-icon img {
+  max-height: 60px;
+}
+
+#modalVestuario.modal-card .img-top-modal .modal-icon img {
+  margin-top: 15px;
+}
+
+#modalTips.modal-card .img-top-modal .modal-icon img {
+  max-height: 60px;
+}
+
+#modalRegalos.modal-card .img-top-modal .modal-icon img {
+  max-height: 60px;
+}
+
+
+.modal-card .close {
+  position: absolute;
+  top: -15px;
+  right: 0;
+  color: var(--color-5);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background-color: var(--color-3);
+  opacity: 1;
+  outline: none;
+  font-size: 34px;
+  font-weight: normal;
+  font-family: var(--fuente-2);
+  font-weight: var(--weight-font-regular);
+
+
+  -webkit-box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.50);
+  -moz-box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.50);
+  box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.50);
+
+  -webkit-transition: all 0.5s 0s ease;
+  -moz-transition: all 0.5s 0s ease;
+  -o-transition: all 0.5s 0s ease;
+  transition: all 0.5s 0s ease;
+
+}
+
+.modal-card .close:hover {
+  background-color: var(--color-1);
+  color: var(--color-5);
+}
+
+.modal-card .close span {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.modal-card .form-control {
+  font-size: 15px;
+}
+
+.modal-card .img-top-modal .adorno-1 {
+  position: absolute;
+  width: 70%;
+  max-width: 400px;
+  height: auto;
+  top: -140px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: -1;
+}
+
+#modalMapa.modal-card .img-top-modal {
+  height: 30px;
+}
+
+#googleMap {
+  height: 300px;
+  width: 100%;
+}
+
+
+/* Modales de mensaje exito */
+
+.modal-body.fix-height {
+  height: 70%;
+}
+
+.modal-body.fix-height .msj-content {
+  height: 100%;
+}
+
+.modal .msj-content {
+  width: 100%;
+}
+
+.modal .msj-content h5 {
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  font-weight: 700;
+  color: var(--color-1)
+}
+
+.modal .msj-content p {
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+}
+
+
+/* ---------- */
+
+
+
+/* Banner para redirigir a la web */
+.banner-contacto-web {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background: var(--color-3);
+  z-index: 9999;
+  padding: 0;
+  margin: 0;
+}
+
+.banner-contacto-web p {
+  width: 100%;
+  text-align: center;
+  color: var(--color-5);
+  margin: 0;
+  padding: 8px 8px;
+  font-family: var(--fuente-2);
+  font-size: 13px;
+}
+
+.banner-contacto-web a {
+  color: var(--color-5);
+}
+
+.banner-contacto-web a:first-child {
+  background: var(--color-1);
+  color: var(--color-5);
+  border-radius: 10px;
+  padding: 3px 10px;
+}
+
+.banner-contacto-web a:first-child:hover {
+  text-decoration: none;
+  color: var(--color-1);
+  background-color: var(--color-5);
+}

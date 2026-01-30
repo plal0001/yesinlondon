@@ -1,0 +1,906 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="es-AR">
+
+
+<head>
+
+  <!-- Head -->
+  <!-- Tag Manager -->
+
+  <!-- Google Tag Manager Argentina / Uruguay-->
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-NLNWGR6');
+  </script>
+  <!-- End Google Tag Manager Argentina-->
+  
+<!-- End Tag Manager -->
+
+
+<!-- Meta -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="robots" content="index, follow" />
+<meta name="color-scheme" content="light only">
+
+<!-- Verificacion Facebook -->
+<meta name="facebook-domain-verification" content="osq4auoygfg64548e16jkq2b3tpeda" />
+
+
+
+
+<!-- Seo -->
+<meta name="description" content="Fixdate - 404" />
+
+
+
+<!-- Title -->
+<title>
+  Fixdate - Invitaciones Digitales - Not Found</title>
+
+
+<!-- Open Graph -->
+<meta property="og:title" content="Fixdate - Invitaciones Digitales - Not Found">
+<meta property="og:description" content="Fixdate - 404">
+<meta property="og:type" content="website">
+<meta property="og:image" content="">
+
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Fixdate - Invitaciones Digitales - Not Found">
+<meta name="twitter:image" content="">
+<meta property="twitter:description" content="Fixdate - 404">
+<!-- Open Graph -->
+
+
+
+<!-- Listado de css con version dinamica segun modificacion de archivo -->
+<link rel='stylesheet' href='https://fixdate.io/public/css/bootstrap.min.css?v=1669736506'/><link rel='stylesheet' href='https://fixdate.io/public/css/base.css?v=1701716547'/><link rel='stylesheet' href='https://fixdate.io/public/css/404.css?v=1669736505'/>
+
+<!-- Font Google fonts-->
+<!-- Connect to domain of font files -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- Optionally increase loading priority -->
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;&display=swap">
+<!-- Async CSS -->
+<link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap">
+<!-- No-JS fallback -->
+<noscript>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap">
+</noscript>
+<!-- // Font Google fonts-->
+
+
+<!-- Favicons -->
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="icon" sizes="16x16 32x32 64x64" href="https://fixdate.io/public/images/faviconit/favicon.ico">
+<link rel="icon" type="image/png" sizes="196x196" href="https://fixdate.io/public/images/faviconit/favicon-192.png">
+<link rel="icon" type="image/png" sizes="160x160" href="https://fixdate.io/public/images/faviconit/favicon-160.png">
+<link rel="icon" type="image/png" sizes="96x96" href="https://fixdate.io/public/images/faviconit/favicon-96.png">
+<link rel="icon" type="image/png" sizes="64x64" href="https://fixdate.io/public/images/faviconit/favicon-64.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://fixdate.io/public/images/faviconit/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://fixdate.io/public/images/faviconit/favicon-16.png">
+<link rel="apple-touch-icon" href="https://fixdate.io/public/images/faviconit/favicon-57.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://fixdate.io/public/images/faviconit/favicon-114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://fixdate.io/public/images/faviconit/favicon-72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://fixdate.io/public/images/faviconit/favicon-144.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://fixdate.io/public/images/faviconit/favicon-60.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://fixdate.io/public/images/faviconit/favicon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://fixdate.io/public/images/faviconit/favicon-76.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://fixdate.io/public/images/faviconit/favicon-152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://fixdate.io/public/images/faviconit/favicon-180.png">
+<meta name="msapplication-TileColor" content="#FFFFFF">
+<meta name="msapplication-TileImage" content="https://fixdate.io/public/images/faviconit/favicon-144.png">
+<meta name="msapplication-config" content="https://fixdate.io/public/images/faviconit/browserconfig.xml">
+<!-- /Favicons -->
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D154569GP8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'G-D154569GP8');
+</script>
+
+
+
+<!-- Pixel de Facebook -->
+  
+  <!-- Pixel Fanpage Argentina (Fixdateok) -->
+  <script>
+    ! function(f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function() {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '448443483291720');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=448443483291720&ev=PageView&noscript=1" /></noscript>
+
+<!-- End Facebook Pixel Code -->
+</head>
+
+
+
+<body>
+
+  <!-- Tag Manager Body -->
+  
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NLNWGR6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  
+
+  <!-- Loader -->
+  <div class="preloader-area">
+  <div class="d-flex justify-content-center align-items-center h-100">
+    <div class="loader">
+      <img src="https://fixdate.io/public/images/logo.svg" alt="" width="180" height="53">
+      <!-- <img src="public/images/fixdate-logo-blanco-navidad-web.png" alt="" width="200" height=""> -->
+    </div>
+  </div>
+</div>
+
+  <!-- Header -->
+  
+
+
+
+<header>
+
+  <!-- Luces navidad -->
+  
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-3">
+
+        <!-- Logo -->
+        <div class="logo">
+          <a href="https://fixdate.io/ar/">
+
+            
+            <img src="https://fixdate.io/public/images/logo_celeste.svg" alt="" width="180" height="53">
+
+          </a>
+        </div>
+
+      </div>
+
+      <div class="col-md-9 d-flex justify-content-end">
+
+        <!-- Menu -->
+        <div class="outer-menu">
+
+          <span class="menu-title">
+            Menu          </span>
+
+          <input class="checkbox-toggle" type="checkbox" />
+          <div class="hamburger">
+            <div></div>
+          </div>
+
+          <div class="menu">
+            <div>
+              <div>
+                <ul>
+                  <!-- Menu -->
+                  
+        <li><a href="https://fixdate.io/" class="">Inicio</a></li>
+
+        <li><a href="#" class="item-menu" data-toggle="modal" data-target="#modal-form-contacto" data-backdrop="static">Contacto</a></li>
+      
+                  <li>
+                    <!-- Link idiomas menu para headers -->
+                       <img class="current-flag" width="30" height="30" src="https://fixdate.io/public/images/iconos-paises/es-AR.svg" alt="">
+   
+   <a href="#" data-toggle="modal" data-target="#modal-lang" class="item-menu">
+     Cambiar país   </a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+  </div>
+</header>
+
+  <!-- 404 -->
+  <section class="not-found">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-7  d-flex justify-content-start align-items-center">
+
+          <div class="info-404">
+
+            <h4>Ups!</h4>
+            <h5>La página que estas buscando no existe</h5>
+            <p>Intenta nuevamente regresando al comienzo</p>
+
+            <a class="boton boton-primario" href="https://fixdate.io/ar/">Regresar al inicio</a>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-5 d-flex justify-content-center align-items-end">
+          <div class="animation-404"></div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <!-- Footer -->
+  <footer>
+
+  <div class="container">
+
+
+    <div class="row">
+
+
+      <!-- Newsletters -->
+      <!-- <div class="col-md-5 input-custom-news">
+
+        <p>Suscribite a nuestros news!</p>
+
+        <div>
+          <input type="text" placeholder="Tu email">
+          <a class="boton-submit" href=""></a>
+        </div>
+
+      </div> -->
+
+
+      <!-- Logo footer -->
+      <div class="col-md-4 d-flex justify-content-center align-items-center">
+        <div class="text-center">
+          <img class="logo-footer" src="https://fixdate.io/public/images/logo_celeste.svg" alt="" width="180" height="53">
+
+          <!-- <img class="logo-footer" src="public/images/fixdate-logo-celeste-navidad-web.png" alt="" width="180" height="53"> -->
+          
+          <p class="slogan">
+            Invitá original, invitá digital          </p>
+        </div>
+      </div>
+
+
+      <!-- Contactos -->
+      <div class="col-md-8">
+
+        <ul class="links-contactos d-flex flex-wrap flex-md-nowrap justify-content-center align-items-center">
+
+
+          <li>
+            <a target="_blank" class="whatsapp-link d-flex flex-column justify-content-around align-items-center" msj="Hola Fixdate!" numberTo="5493512742017" href="">
+              <img class="whatsapp-icon-footer" src="https://fixdate.io/public/images/icono_22.svg" alt="" width="50" height="50" loading="lazy">
+              <p>Whatsapp</p>
+            </a>
+          </li>
+
+
+          <li>
+            <a class="d-flex flex-column justify-content-around align-items-center" href="mailto:info@fixdate.io">
+              <img class="correo-icon-footer" src="https://fixdate.io/public/images/icono_18.svg" alt="" width="50" height="50" loading="lazy">
+              <p>
+                info@fixdate.io              </p>
+            </a>
+          </li>
+
+
+          <li>
+            <a class="d-flex flex-column justify-content-around align-items-center" target="_blank" href="https://www.instagram.com/fixdateok/">
+              <img class="instagram-icon-footer" src="https://fixdate.io/public/images/icono_19.svg" alt="" width="50" height="50" loading="lazy">
+              <p>@fixdate</p>
+            </a>
+          </li>
+
+
+          <li>
+            <a class="d-flex flex-column justify-content-around align-items-center" target="_blank" href="https://www.facebook.com/fixdateok">
+              <img class="facebook-icon-footer" src="https://fixdate.io/public/images/icono_20.svg" alt="" width="50" height="50" loading="lazy">
+              <p>/fixdate</p>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+
+
+    </div>
+
+
+    <div class="row sub-footer">
+      <div class="col-md-12 text-center">
+        <p class="copy">Fixdate &copy; 2024 | Todos los derechos reservados.</p>
+        <p>
+          <img class="current-flag" width="20" height="20" src="https://fixdate.io/public/images/iconos-paises/es-AR.svg" alt="">
+          <a href="#" data-toggle="modal" data-target="#modal-lang">
+            Cambiar país          </a>
+        </p>
+      </div>
+    </div>
+
+
+
+
+  </div>
+
+
+  <!-- Whatsapp -->
+  <a target="_blank" href="" class="whatsapp-link whatsapp-fixed" msj="Hola Fixdate!" numberTo="5493512742017"></a>
+
+
+  <!-- Promo Footer -->
+  <!-- Banner de promo Navidad en footer -->
+
+
+<!-- Banner de promo Black Friday en footer -->
+
+
+</footer>
+
+  <!-- Modal Contacto-->
+  <!-- Modal Form Contacto -->
+<div class="modal fade  modal-transparent" id="modal-form-contacto" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+  <div class="modal-dialog modal-md modal-dialog-centered" role="document">
+    <div class="modal-content">
+
+      <div class="modal-header">
+
+        <h3>
+          Contacto        </h3>
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+
+
+      </div>
+
+      <div class="modal-body">
+
+        <p class="sub-title-form">
+          Un asesor personalizado responderá tus dudas        </p>
+
+        <!-- Form -->
+        <form action="" method="POST" id="cform">
+
+          <div class="row">
+
+
+
+            <div class="form-group col-md-12">
+              <input type="text" name="cname" class="form-control" id="cname" placeholder="Nombre">
+            </div>
+
+            <div class="form-group col-md-12">
+              <input type="text" name="cphone" class="form-control" id="cphone" placeholder="Teléfono o Whatsapp">
+            </div>
+
+            <div class="form-group col-md-12">
+              <input type="email" name="cemail" class="form-control" id="cemail" placeholder="Email">
+            </div>
+
+            <div class="form-group col-md-12 m-0">
+              <textarea rows="3" name="cmessage" class="form-control" id="cmessage" placeholder="Hablanos un poquito sobre tu evento..." required="required"></textarea>
+            </div>
+
+            <input type="hidden" name="cidioma" class="form-control" id="pidioma" value="es-AR">
+            <input type="hidden" name="country" class="form-control" value="ar">
+            <input type="hidden" name="token" class="form-control" value="b21f7f3ce2b844cfc4ee7a7785ff1073">
+
+            <!-- Error -->
+            <p class="error-form" id="cerr"></p>
+
+          </div>
+        </form>
+
+      </div>
+
+      <div class="modal-footer justify-content-center">
+        <button id="cbtn" class="boton boton-secundario"> Enviar mensaje </button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  <!-- Modal Change Language -->
+  <!-- Modal -->
+<div class="modal fade modal-transparent" id="modal-lang" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+
+      <div class="modal-header">
+
+        <h3>
+          Seleccionar país        </h3>
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+
+
+      </div>
+
+      <div class="modal-body">
+        <div class="flags-laguages">
+
+          <ul class="d-flex flex-wrap justify-content-center align-items-center">
+
+            <li>
+              <a class="change-lang" country="ar" lang="es-AR" href=""><img loading="lazy" src="https://fixdate.io/public/images/iconos-paises/es-AR.svg" alt=""></a>
+            </li>
+
+            <li>
+              <a class="change-lang" country="bo" lang="es-BO" href=""><img loading="lazy" src="https://fixdate.io/public/images/iconos-paises/es-BO.svg" alt=""></a>
+            </li>
+
+            <li>
+              <a class="change-lang" country="br" lang="pt-BR" href=""><img loading="lazy" src="https://fixdate.io/public/images/iconos-paises/pt-BR.svg" alt=""></a>
+            </li>
+
+            <li>
+              <a class="change-lang" country="ca" lang="en-CA" href=""><img loading="lazy" src="https://fixdate.io/public/images/iconos-paises/en-CA.svg" alt=""></a>
+            </li>
+
+            <li>
+              <a class="change-lang" country="cl" lang="es-CL" href=""><img loading="lazy" src="https://fixdate.io/public/images/iconos-paises/es-CL.svg" alt=""></a>
+            </li>
+
+            <li>
+              <a class="change-lang" country="co" lang="es-CO" href=""><img loading="lazy" src="https://fixdate.io/public/images/iconos-paises/es-CO.svg" alt=""></a>
+            </li>
+
+            <li>
+              <a class="change-lang" country="cr" lang="es-CR" href=""><img loading="lazy" src="https://fixdate.io/public/images/iconos-paises/es-CR.svg" alt=""></a>
+            </li>
+
+            <li>
+              <a class="change-lang" country="do" lang="es-DO" href=""><img loading="lazy" src="https://fixdate.io/public/images/iconos-paises/es-DO.svg" alt=""></a>
+            </li>
+
+            <li>
+              <a class="change-lang" country="mx" lang="es-MX" href=""><img loading="lazy" src="https://fixdate.io/public/images/iconos-paises/es-MX.svg" alt=""></a>
+            </li>
+
+            <li>
+              <a class="change-lang" country="ni" lang="es-NI" href=""><img loading="lazy" src="https://fixdate.io/public/images/iconos-paises/es-NI.svg" alt=""></a>
+            </li>
+
+            <li>
+              <a class="change-lang" country="pa" lang="es-PA" href=""><img loading="lazy" src="https://fixdate.io/public/images/iconos-paises/es-PA.svg" alt=""></a>
+            </li>
+
+            <li>
+              <a class="change-lang" country="py" lang="es-PY" href=""><img loading="lazy" src="https://fixdate.io/public/images/iconos-paises/es-PY.svg" alt=""></a>
+            </li>
+
+            <li>
+              <a class="change-lang" country="pe" lang="es-PE" href=""><img loading="lazy" src="https://fixdate.io/public/images/iconos-paises/es-PE.svg" alt=""></a>
+            </li>
+
+            <li>
+              <a class="change-lang" country="pt" lang="pt-PT" href=""><img loading="lazy" src="https://fixdate.io/public/images/iconos-paises/pt-PT.svg" alt=""></a>
+            </li>
+
+            <li>
+              <a class="change-lang" country="pr" lang="es-PR" href=""><img loading="lazy" src="https://fixdate.io/public/images/iconos-paises/es-PR.svg" alt=""></a>
+            </li>
+
+            <li>
+              <a class="change-lang" country="sv" lang="es-SV" href=""><img loading="lazy" src="https://fixdate.io/public/images/iconos-paises/es-SV.svg" alt=""></a>
+            </li>
+
+            <li>
+              <a class="change-lang" country="es" lang="es-ES" href=""><img loading="lazy" src="https://fixdate.io/public/images/iconos-paises/es-ES.svg" alt=""></a>
+            </li>
+
+            <li>
+              <a class="change-lang" country="us" lang="en-US" href=""><img loading="lazy" src="https://fixdate.io/public/images/iconos-paises/en-US.svg" alt=""></a>
+            </li>
+
+            <li>
+              <a class="change-lang" country="uy" lang="es-UY" href=""><img loading="lazy" src="https://fixdate.io/public/images/iconos-paises/es-UY.svg" alt=""></a>
+            </li>
+
+            <li>
+              <a class="change-lang" country="ve" lang="es-VE" href=""><img loading="lazy" src="https://fixdate.io/public/images/iconos-paises/es-VE.svg" alt=""></a>
+            </li>
+
+            <li>
+              <a class="change-lang" country="ec" lang="es-EC" href=""><img loading="lazy" src="https://fixdate.io/public/images/iconos-paises/es-EC.svg" alt=""></a>
+            </li>
+
+            <li>
+              <a class="change-lang" country="gt" lang="es-GT" href=""><img loading="lazy" src="https://fixdate.io/public/images/iconos-paises/es-GT.svg" alt=""></a>
+            </li>
+
+            <li>
+              <a class="change-lang" country="hn" lang="es-HN" href=""><img loading="lazy" src="https://fixdate.io/public/images/iconos-paises/es-HN.svg" alt=""></a>
+            </li>
+
+            <li>
+              <a class="change-lang" country="cu" lang="es-CU" href=""><img loading="lazy" src="https://fixdate.io/public/images/iconos-paises/es-CU.svg" alt=""></a>
+            </li>
+
+
+          </ul>
+
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Scripts -->
+  <!-- BaseWeb Config js -->
+<script>
+  // Estas configuraciones estan ligadas al config.php
+
+  // Paths app:
+  const path = "https://fixdate.io/";
+  const pathCountry = "https://fixdate.io/ar/";
+  const pathDomain = "";
+
+  const countryCode = "ar";
+
+  // Para manager
+  const pathLang = "_pathLang";
+  const langJsManager = "es";
+  
+</script><!-- /BaseWeb Config js -->
+
+
+<!-- Web Config js -->
+ <script>
+   // Consulto tipo de dispositivo
+   if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+
+     var device = 'mobile';
+     var pahWP = 'api';
+   } else {
+     var device = 'desktop';
+     var pahWP = 'web';
+   }
+ </script>
+
+
+
+ <!-- Soporte WEBP -->
+ <script>
+   function support_format_webp() {
+     var elem = document.createElement('canvas');
+
+     if (!!(elem.getContext && elem.getContext('2d'))) {
+       // was able or not to get WebP representation
+       return elem.toDataURL('image/webp').indexOf('data:image/webp') == 0;
+     } else {
+       // very old browser like IE 8, canvas not supported
+       return false;
+     }
+   }
+ </script>
+
+
+
+ <!-- Incluyo variables de idioma js -->
+ <script type='text/javascript' src="https://fixdate.io/langs/js/es-AR.js?v=1700935521"></script>
+
+
+
+ <!-- Idioma por defecto js -->
+ <script>
+   var langDefault = 'es-AR';
+ </script>
+
+
+ <!-- Listado de js con version dinamica segun modificacion de archivo -->
+ <script type='text/javascript' src='https://fixdate.io/public/js/jquery-3.5.1.min.js?v=1645580925'></script><script type='text/javascript' src='https://fixdate.io/public/js/bootstrap.bundle.min.js?v=1645580923'></script><script type='text/javascript' src='https://fixdate.io/public/js/jquery.cookie.js?v=1645580925'></script><script type='text/javascript' src='https://fixdate.io/public/js/change-lang.js?v=1645580924'></script><script type='text/javascript' src='https://fixdate.io/public/js/parallax.min.js?v=1645580926'></script><script type='text/javascript' src='https://fixdate.io/public/js/biomp.js?v=1645580923'></script><script type='text/javascript' src='https://fixdate.io/public/js/jquery.stickr.min.js?v=1645580925'></script><script type='text/javascript' src='https://fixdate.io/public/js/lottie_svg.min.js?v=1645580926'></script>
+
+
+ <!-- Loader -->
+ <script>
+   var prealoaderOption = $(window);
+
+   prealoaderOption.on("load", function() {
+
+     var preloader = $('.loader');
+     var preloaderArea = $('.preloader-area');
+
+     preloader.fadeOut(300);
+     preloaderArea.delay(100).fadeOut(300);
+
+   });
+ </script>
+
+
+
+ <!-- Cierro el menu al hacer click en item de menu -->
+ <script>
+   $('a.item-menu').on("click", function(e) {
+
+     e.preventDefault();
+
+     $('.outer-menu .checkbox-toggle').prop('checked', false);
+
+   });
+ </script>
+
+
+ <!-- Smoth scroll -->
+ <script>
+   $('a.smoth-scroll').on("click", function(e) {
+     var anchor = $(this);
+     $('html, body').stop().animate({
+       scrollTop: $(anchor.attr('href')).offset().top - 1
+     }, 1000);
+     e.preventDefault();
+   });
+ </script>
+
+
+
+ <!-- Menu fijo en scroll -->
+ <script>
+   // PORTADA
+   var alto = $('header').height() * 2;
+   // console.log(alto);
+   $(window).scroll(function() {
+     if ($(document).scrollTop() > alto) {
+       $('.outer-menu').addClass('fixed');
+       $('.whatsapp-fixed').addClass('whatsapp-fixed-right');
+     }
+     if ($(document).scrollTop() < alto) {
+       $('.outer-menu').removeClass('fixed');
+       $('.whatsapp-fixed').removeClass('whatsapp-fixed-right');
+     }
+   });
+ </script>
+
+
+
+ <!-- Whatsapp path -->
+ <script>
+   $(document).ready(function() {
+
+
+     // Recorro los links de wp
+     $("a.whatsapp-link").each(function(index) {
+
+       var wpMessage = $(this).attr('msj');
+       var wpNumberto = $(this).attr('numberTo');
+
+       // Cambio el path del link WP:
+       $(this).attr("href", "https://" + pahWP + ".whatsapp.com/send?phone=" + wpNumberto + "&text=" + wpMessage);
+
+     });
+
+
+   });
+ </script>
+
+
+
+ <!-- Form de Contacto -->
+ <script>
+   $("#cbtn").click(function(e) {
+
+     e.preventDefault();
+
+     if (isokCSend()) //form bien validado
+     {
+
+       $("#cbtn").html(Lang_Form_Contacto_1);
+       $("#cbtn").attr('disabled', true);
+
+
+       // Obtengo el Form de contacto
+       var formulario = $('#cform')[0];
+
+       // Obtengo los datos del formulario
+       var datos = new FormData(formulario);
+
+       //  for (var pair of datos.entries()) {
+       //    console.log(pair[0] + ', ' + pair[1]);
+       //  }
+
+       // Fetch para guardar la consulta y enviar notificacion.
+       fetch(path + 'fetchs/send-form-contacto.php', {
+           method: 'POST',
+           body: datos
+         })
+
+         // Promesas fetch
+         .then(res => res.json())
+         .then(data => {
+
+           // Si recibo error imprimo el nombre del error
+           if (data.error === true) {
+
+             $("#cerr").html('');
+             $("#cform").after('<p class="msj-error">' + Lang_Form_Contacto_2 + '</p>');
+             $("#cbtn").html(Lang_Form_Contacto_9);
+             $("#cbtn").removeAttr("disabled")
+             $('#cform')[0].reset();
+
+           }
+
+           // Si no hay error
+           if (data.error === false) {
+
+             $("#cform").hide();
+             $(".modal-body p.sub-title-form").hide();
+             $("#modal-form-contacto .modal-header").hide();
+             $("#modal-form-contacto .modal-footer").hide();
+             $("#cbtn").html(Lang_Form_Contacto_9);
+             $("#cbtn").removeAttr("disabled")
+             $('#cform')[0].reset();
+             $("#cform").after('<p id="msj-contacto" class="msj-contacto">' + Lang_Form_Contacto_3 + '</p>');
+
+             // Cierro modal
+             setTimeout(function() {
+               $('#modal-form-contacto').modal('hide');
+             }, 3000);
+
+           }
+
+         })
+
+     }
+
+   })
+
+
+
+   // Validar contacto
+   function isokCSend() {
+
+     $("#cerr").html('');
+     $("p.msj-error").hide();
+     $("p.msj-error").html('');
+
+     var flag = true;
+     var err = '';
+     var emailreg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+
+     var cname = $.trim($("#cname").val());
+     var cphone = $.trim($("#cphone").val());
+     var cemail = $.trim($("#cemail").val());
+     var cmessage = $.trim($("#cmessage").val());
+
+
+     if (cname === '') {
+       err = Lang_Form_Contacto_4;
+       flag = false;
+     }
+
+
+     if (cphone === '') {
+       err = Lang_Form_Contacto_5;
+       flag = false;
+     }
+
+
+     if (cemail !== '') {
+       if (!emailreg.test(cemail)) {
+         err = Lang_Form_Contacto_6;
+         flag = false;
+       }
+     } else {
+       err = Lang_Form_Contacto_7;
+       flag = false;
+     }
+
+
+     if (cmessage === '') {
+       err = Lang_Form_Contacto_8;
+       flag = false;
+     }
+
+     $("#cerr").html(err);
+
+     return flag;
+
+   }
+
+
+   //  Reset al abrir el form de nuevo
+   $('#modal-form-contacto').on('shown.bs.modal', function() {
+
+     // Reset form
+     $(".modal-body p.sub-title-form").show();
+     $("#modal-form-contacto .modal-header").show();
+     $("#modal-form-contacto .modal-footer").show();
+     $("#cform").show();
+     $("#cerr").html('');
+     $("#modal-form-contacto .msj-contacto").remove();
+     $("p.msj-error").hide();
+     $("p.msj-error").html('');
+
+
+   })
+ </script>
+
+ <!-- Modal promo navidad -->
+ 
+ <!-- Modal promo Black Friday -->
+ <!-- /Web Config js -->
+
+  <!-- Scripts de Seccion actual -->
+  <script>
+  //  404
+  let svgContainer404Animation = document.querySelector('.animation-404');
+
+  let anim404 = bodymovin.loadAnimation({
+    wrapper: svgContainer404Animation,
+    animType: 'svg',
+    autoplay: true,
+    loop: true,
+    path: path + "public/images/404.json"
+  });
+
+  anim404.play();
+</script>
+
+</body>
+
+
+</html>

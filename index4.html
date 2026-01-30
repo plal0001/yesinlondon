@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enviar Formulario a Google</title>
+</head>
+
+<body>
+
+    <div class="modal-body">
+        <div class="formulario-content">
+            <form id="formAsistencia" action="">
+                <div class="form-group d-flex justify-content-around custom-control custom-radio custom-control-inline">
+                    <div class="form-check">
+                        <input class="form-check-input custom-control-input" type="radio" name="asistencia" id="1"
+                            value="Si" checked>
+                        <label class="form-check-label custom-control-label" for="1">Si! Confirmo</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="custom-control-input" type="radio" name="asistencia" id="2" value="No">
+                        <label class="custom-control-label" for="2">No puedo :(</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="nombreAsistente" name='nombre'
+                        placeholder="Indica tu nombre completo">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="telefonoAsistente" name='telefono'
+                        placeholder="Indica tu teléfono">
+                </div>
+                <div class="form-group">
+                    <textarea id="alergenosAsistente" class="form-control" name="comentarios" id="" rows="2"
+                        placeholder="Indica algún dato importante"></textarea>
+                </div>
+                <input id="eventoAsistencia" type="hidden" name="evento" value="">
+                <input type="hidden" name="invitacion" value="">
+                <input type="hidden" name="token" value="">
+                <input type="hidden" name="lang" value="es">
+                <input type="hidden" name="country" value="es">
+            </form>
+        </div>
+        <div class="msj-content d-flex flex-column justify-content-center"></div>
+    </div>
+
+    <div class="modal-footer">
+        <button type="button" id="enviarFormulario" class="boton">Enviar</button>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+                document.getElementById("enviarFormulario").addEventListener("click", function () {
+                    var asistencia = document.querySelector('input[name="asistencia"]:checked').value;
+                    var nombre = document.getElementById("nombreAsistente").value;
+                    var telefono = document.getElementById("telefonoAsistente").value;
+                    var alergenos = document.getElementById("alergenosAsistente").value;
+
+                    // Construir la URL con los parámetros incluidos en la cadena de consulta
+                    var url = "https://docs.google.com/forms/d/e/1FAIpQLSePCEqTNzb0CJEIQDGIVtEWNeqLYwI0a0Nrb3-Nxvh-JfARuA/formResponse?usp=pp_url" +
+                        "&entry.586665967=" + encodeURIComponent(asistencia) +
+                        "&entry.1097819900=" + encodeURIComponent(nombre) +
+                        "&entry.763108689=" + encodeURIComponent(telefono) +
+                        "&entry.1946534993=" + encodeURIComponent(alergenos);
+
+                    // Realizar la solicitud GET con fetch
+                    const requestOptions = {
+                        method: "GET",
+                        redirect: "follow",
+                        mode: 'no-cors'
+                    };
+
+                    fetch(url, requestOptions)
+                        .then((response) => {
+                            console.log("FUNCIONA");
+                            return true; // Devuelve true para poder usarlo en la cadena de promesas
+                        })
+                        .then((result) => {
+                            console.log(result); // Aquí result será true
+                        })
+                        .catch((error) => {
+                            console.error("ERROR");
+                        });
+                });
+            });
+
+    </script>
+
+</body>
+
+</html>
