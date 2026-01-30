@@ -785,7 +785,7 @@
                       </div>
                       <div class="form-check">
                         <input class="custom-control-input" type="radio" name="asistencia_0" value="No" id="checkNo_0">
-                        <label class="custom-control-label" for="checkNo_0">No asistire</label>
+                        <label class="custom-control-label" for="checkNo_0">No asistiré</label>
                       </div>
                     </div>
             
@@ -798,24 +798,8 @@
                     <div class="form-group">
                       <textarea class="form-control" name="alergenos" rows="2" placeholder="Alérgenos e intolerancias"></textarea>
                     </div>
-                    <div class="metodo-desplazamiento">
-                      <label class="metodo-desplazamiento-label">Método de desplazamiento:</label>
-                    </div>
-                    <div class="form-group d-flex justify-content-around custom-control custom-radio custom-control-inline desplazamiento-group">
-                      <div class="form-check">
-                        <input class="custom-control-input" type="radio" name="desplazamiento_0" value="Autobús+(La+Carolina)" id="busLC_0">
-                        <label class="custom-control-label" for="busLC_0">Autobús (La Carolina)</label>
-                      </div>
-                      <div class="form-check">
-                        <input class="custom-control-input" type="radio" name="desplazamiento_0" value="Autobús+(Guarromán)" id="busG_0">
-                        <label class="custom-control-label" for="busG_0">Autobús (Guarromán)</label>
-                      </div>
-                      <div class="form-check">
-                        <input class="custom-control-input" type="radio" name="desplazamiento_0" value="Coche+propio" id="coche_0">
-                        <label class="custom-control-label" for="coche_0">Coche propio</label>
-                      </div>
-                    </div>
                   </div>
+                </div>
             
                 <div class="text-center mb-3">
                   <button type="button" id="btnAgregarAcompanante" class="btn-add-invitado">
@@ -1715,20 +1699,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 <input type="text" class="form-control mb-2" name="nombre" placeholder="Nombre completo" required>
                 <input type="text" class="form-control mb-2" name="telefono" placeholder="Teléfono" required>
                 <textarea class="form-control" name="alergenos" rows="2" placeholder="Alérgenos"></textarea>
-                <div class="form-group d-flex justify-content-around custom-control custom-radio custom-control-inline desplazamiento-group">
-                      <div class="form-check">
-                        <input class="custom-control-input" type="radio" name="desplazamiento_${index}" value="Autobús+(La+Carolina)" id="busLC_${index}">
-                        <label class="custom-control-label" for="busLC_${index}">Autobús (La Carolina)</label>
-                      </div>
-                      <div class="form-check">
-                        <input class="custom-control-input" type="radio" name="desplazamiento_${index}" value="Autobús+(Guarromán)" id="busG_${index}">
-                        <label class="custom-control-label" for="busG_${index}">Autobús (Guarromán)</label>
-                      </div>
-                      <div class="form-check">
-                        <input class="custom-control-input" type="radio" name="desplazamiento_${index}" value="Coche+propio" id="coche_${index}">
-                        <label class="custom-control-label" for="coche_${index}">Coche propio</label>
-                      </div>
-                    </div>
             </div>`;
         contenedor.insertAdjacentHTML('beforeend', html);
     });
@@ -1763,15 +1733,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 params.append('entry.2050572077', asistencia);
                 params.append('entry.485461905', bloque.querySelector('[name="nombre"]').value);
                 params.append('entry.1732470359', bloque.querySelector('[name="telefono"]').value);
-
                 params.append('entry.172609796', bloque.querySelector('[name="alergenos"]').value);
-
-                // Desplazamiento: buscar el radio seleccionado dentro del bloque y mapear al entry de Google Forms
-                const desplSeleccionado = bloque.querySelector('input[name^="desplazamiento_"]:checked');
-                const desplazamiento = desplSeleccionado ? desplSeleccionado.value : '';
-                params.append('entry.1171257266', desplazamiento);
-
-
 
                 // Envío individual
                 await fetch(url, {
