@@ -1724,7 +1724,7 @@ footer svg.firma-footer .x-fixdate {
   color: var(--color-txt-btns);
   font-weight: 700;
   /* Oscurecer visualmente respecto al resto sin degradados */
-  filter: brightness(0.92);
+  filter: brightness(0.5);
   box-shadow: 0 8px 20px rgba(0,0,0,0.08);
   border: none;
   padding: 14px 32px;
