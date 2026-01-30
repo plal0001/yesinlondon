@@ -1,11 +1,12 @@
 /* Generales */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rouge+Script&display=swap&family=Festive&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Homemade+Apple&display=swap');
 :root {
   /* Fuentes */
-  --fuente-1: "Open Sans", sans-serif; /* 300 400 600 */
+  --fuente-1: "Homemade Apple", sans-serif; /* 300 400 600 */
   --fuente-2: "Playfair Display", serif; /* 400 700 */
   --fuente-iniciales: "Festive", cursive; /* Nueva fuente para iniciales */
+  --fuente-inicio: "Barrio", cursive; /* Fuente para "Yes In London" */
 
   /* Grosor fuentes */
   --grosor-fuente-light: 300;
@@ -22,7 +23,7 @@
   --grosor-subtitulos: var(--grosor-fuente-regular);
 
   /* Iniciales portada */
-  --font-iniciales-portada: var(--fuente-iniciales);
+  --font-iniciales-portada: var(--fuente-inicio);
   --grosor-inciales-portada: var(--grosor-fuente-regular);
 
   /* Nombres portada */
