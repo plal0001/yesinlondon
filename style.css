@@ -211,7 +211,7 @@ body {
   font-weight: var(--grosor-fuente-regular);
   border-radius: 10px;
   line-height: 17px;
-  font-size: 17px;
+  font-size: 20px;
   padding: 15px 30px;
   -webkit-transition: all 0.5s 0s ease;
   -moz-transition: all 0.5s 0s ease;
@@ -363,7 +363,7 @@ ul.lang-inv li {
 ul.lang-inv li a {
   color: var(--color-txt-btns-idiomas);
   background-color: var(--color-btns-idiomas);
-  font-size: 14px;
+  font-size: 18px;
   font-family: var(--fuente-1);
   font-weight: 400;
   display: inline-block;
@@ -404,7 +404,7 @@ ul.lang-inv li a:hover {
   text-align: center;
   color: #fff;
   display: inline-block;
-  font-size: 14px;
+  font-size: 18px;
   margin-top: 30px;
 }
 
@@ -439,7 +439,7 @@ ul.lang-inv li a:hover {
 
 span#error-form {
   color: red;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 /* ---------- */
@@ -929,7 +929,7 @@ section.ceremonia-fiesta .info-col .info-box p {
   font-family: var(--fuente-1);
   font-weight: var(--grosor-fuente-regular);
   color: var(--color-textos-eventos);
-  font-size: 16px;
+  font-size: 18px;
   padding: 0 20px;
 }
 
@@ -1108,7 +1108,7 @@ section.fiesta .item-fiesta p {
   color: var(--color-txt-cards);
   margin-bottom: 0;
   font-family: var(--fuente-1);
-  font-size: 16px;
+  font-size: 18px;
 }
 
 section.fiesta .item-fiesta .content-item-fiesta {
