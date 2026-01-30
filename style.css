@@ -1720,7 +1720,7 @@ footer svg.firma-footer .x-fixdate {
 
 .boton.confirmar-asistencia {
   /* Mantener mismo color base que otros botones pero ligeramente más oscuro */
-  background: var(--color-fondo-btns-hover);
+  background: var(--color-fondo-btn-asistencia);
   color: var(--color-txt-btns);
   font-weight: 700;
   box-shadow: 0 8px 20px rgba(0,0,0,0.08);
