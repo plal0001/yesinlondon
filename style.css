@@ -1,11 +1,12 @@
 /* Generales */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rouge+Script&display=swap&family=Festive&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Indie+Flower&family=Neonderthaw&family=Quicksand:wght@300..700&display=swap');
 :root {
   /* Fuentes */
-  --fuente-1: "Open Sans", sans-serif; /* 300 400 600 */
-  --fuente-2: "Playfair Display", serif; /* 400 700 */
-  --fuente-iniciales: "Festive", cursive; /* Nueva fuente para iniciales */
+  --fuente-1: "Indie Flower", sans-serif; /* 300 400 600 */
+  --fuente-2: "Quicksand", serif; /* 400 700 */
+  --fuente-iniciales: "Cabin Sketch", bold; /* Nueva fuente para iniciales */
   --fuente-inicio: "Neonderthaw", cursive; /* Nueva fuente para inicio */
 
   /* Grosor fuentes */
@@ -572,6 +573,17 @@ section.portada .content-portada .inicio span {
   font-family: var(--font-inicio);
   font-weight: var(--grosor-inicio);
   padding: 0 5px;
+}
+
+/* Aplicar la misma fuente al bloque .inicio usado en el modal de música u otros lugares
+   que no estén dentro de la sección .portada. Esto asegura que "Yes in London" use
+   la variable --font-inicio incluso fuera de la portada. Ajusta tamaño si hace falta. */
+.nombres-modal-musica .inicio span,
+.nombres-modal-musica .inicio {
+  font-family: var(--font-inicio);
+  font-weight: var(--grosor-inicio);
+  /* no forzamos tamaño aquí; si quieres tamaño específico descomenta y ajusta */
+  /* font-size: 48px; line-height: 56px; */
 }
 
 section.portada .iniciales .ampersand-portada {
