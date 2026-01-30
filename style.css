@@ -1875,3 +1875,21 @@ section.fiesta .anim-tips path {
 section.galeria a {
   margin-bottom: 30px;
 }
+
+/* Estilos para el selector de desplazamiento en el formulario de asistencia */
+.metodo-desplazamiento-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.desplazamiento-group .form-check label {
+  font-size: 0.9rem; /* etiquetas de los radios más pequeñas */
+  margin-bottom: 0;
+}
+
+.desplazamiento-group .form-check {
+  margin: 0 6px; /* separar ligeramente las opciones */
+}
+
