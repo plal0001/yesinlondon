@@ -211,7 +211,7 @@ body {
   font-weight: var(--grosor-fuente-regular);
   border-radius: 10px;
   line-height: 17px;
-  font-size: 25px;
+  font-size: 23px;
   padding: 15px 30px;
   -webkit-transition: all 0.5s 0s ease;
   -moz-transition: all 0.5s 0s ease;
@@ -245,7 +245,7 @@ body {
   font-family: var(--font-subtitulos);
   font-weight: var(--grosor-subtitulos);
   color: var(--color-subtitulos);
-  font-size: 18px;
+  font-size: 22px;
 }
 
 ul {
@@ -618,7 +618,7 @@ section.portada .box-frase-portada {
 section.portada .box-frase-portada p {
   font-family: var(--font-frase-portada);
   font-weight: var(--grosor-frase-portada);
-  font-size: 18px;
+  font-size: 22px;
   line-height: 25px;
   text-align: center;
   color: var(--color-frase-portada);
@@ -929,7 +929,7 @@ section.ceremonia-fiesta .info-col .info-box p {
   font-family: var(--fuente-1);
   font-weight: var(--grosor-fuente-regular);
   color: var(--color-textos-eventos);
-  font-size: 18px;
+  font-size: 22px;
   padding: 0 20px;
 }
 
@@ -1108,7 +1108,7 @@ section.fiesta .item-fiesta p {
   color: var(--color-txt-cards);
   margin-bottom: 0;
   font-family: var(--fuente-1);
-  font-size: 18px;
+  font-size: 22px;
 }
 
 section.fiesta .item-fiesta .content-item-fiesta {
@@ -1582,7 +1582,7 @@ footer svg.firma-footer .x-fixdate {
 }
 
 #modalMusica .modal-content span.aclara-musica {
-  font-size: 18px;
+  font-size: 20px;
   color: var(--color-txt-recomienda-musica);
   font-weight: 300;
   margin: 30px 0 10px;
@@ -1740,7 +1740,7 @@ footer svg.firma-footer .x-fixdate {
   float: left;
   margin-bottom: 10px;
   margin-top: 10px;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 #formAsistencia .form-group .form-check label {
