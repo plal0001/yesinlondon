@@ -1718,42 +1718,33 @@ footer svg.firma-footer .x-fixdate {
   margin-top: 0;
 }
 
-/* Modal Confirmar asistencia*/
-
-#modalAsistencia input,
-#modalAsistencia textarea {
-  text-align: center;
-  background: none;
-  resize: none;
-  outline: none;
-  padding-bottom: 5px;
-  color: var(--color-inputs-form);
+.boton.confirmar-asistencia {
+  /* Mantener mismo color base que otros botones pero ligeramente más oscuro */
+  background: var(--color-fondo-btns);
+  color: var(--color-txt-btns);
+  font-weight: 700;
+  /* Oscurecer visualmente respecto al resto sin degradados */
+  filter: brightness(0.92);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  border: none;
+  padding: 14px 32px;
+  min-width: 240px;
+  border-radius: 12px;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, filter 0.18s ease;
 }
 
-#modalAsistencia input:focus,
-#modalAsistencia textarea:focus {
-  border-color: var(--color-input-focus);
-  box-shadow: none;
+.boton.confirmar-asistencia:hover,
+.boton.confirmar-asistencia:focus {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 32px rgba(0,0,0,0.12);
+  filter: brightness(0.88);
+  text-decoration: none;
 }
 
-#formAsistencia .form-group .form-check {
-  float: left;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  font-size: 22px;
+.boton.confirmar-asistencia:active {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.10);
 }
-
-#formAsistencia .form-group .form-check label {
-  cursor: pointer;
-  padding-left: 5px;
-}
-
-#modalAsistencia .form-control {
-  font-size: 15px;
-}
-
-/* Modal Sugerir cancion */
-
 #modalSugerirCancion input {
   text-align: center;
   background: none;
@@ -1893,39 +1884,4 @@ section.galeria a {
   margin: 0 6px; /* separar ligeramente las opciones */
 }
 
-/* Resaltar botón "Confirmar asistencia" */
-.boton.confirmar-asistencia {
-  background: linear-gradient(135deg, #1c9530 0%, #318352 100%); /* degradado cálido */
-  color: #1b2a14; /* texto oscuro para contraste */
-  font-weight: 700;
-  border: none;
-  padding: 16px 36px;
-  min-width: 260px;
-  border-radius: 14px;
-  text-shadow: 0 1px 0 rgba(255,255,255,0.18);
-}
-
-.boton.confirmar-asistencia:hover,
-.boton.confirmar-asistencia:focus {
-  transform: translateY(-3px);
-  box-shadow: 0 18px 40px rgba(255,138,0,0.25), 0 6px 12px rgba(0,0,0,0.12);
-  text-decoration: none;
-  opacity: 0.98;
-}
-
-.boton.confirmar-asistencia:active {
-  transform: translateY(-1px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
-}
-
-/* Animación opcional (no aplicada por defecto) */
-@keyframes pulse-confirm {
-  0% { box-shadow: 0 0 0 0 rgba(255,138,0,0.20); }
-  70% { box-shadow: 0 0 0 12px rgba(255,138,0,0); }
-  100% { box-shadow: 0 0 0 0 rgba(255,138,0,0); }
-}
-
-.boton.confirmar-asistencia.pulse {
-  animation: pulse-confirm 2.5s infinite ease-out;
-}
 
