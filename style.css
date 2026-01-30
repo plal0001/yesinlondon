@@ -2,9 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rouge+Script&display=swap&family=Festive&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Indie+Flower&family=Neonderthaw&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
 :root {
   /* Fuentes */
-  --fuente-1: "Indie Flower", sans-serif; /* 300 400 600 */
+  --fuente-1: "Patrick Hand", sans-serif; /* 300 400 600 */
   --fuente-2: "Quicksand", serif; /* 400 700 */
   --fuente-iniciales: "Cabin Sketch", bold; /* Nueva fuente para iniciales */
   --fuente-inicio: "Neonderthaw", cursive; /* Nueva fuente para inicio */
@@ -1611,39 +1613,6 @@ footer svg.firma-footer .x-fixdate {
 #modalMusica .boton {
   margin: 0 5px;
 }
-
-/* Ajustes visuales para elementos que usan Indie Flower: un poco más gordo y algo más grande */
-/* Evitamos tocar selectores muy específicos de la portada para no romper el layout grande. */
-.boton,
-.modal.modal-transparent .modal-header h3,
-ul.lang-inv li a,
-section.portada .content-portada span.fecha,
-section.ceremonia-fiesta .info-col .info-box p,
-section.fiesta .item-fiesta p,
-section.instagram .hashtag,
-footer,
-footer p,
-.modal-dialog,
-.modal-dialog form label,
-.modal .modal-content-2 p,
-#modalMusica .modal-content,
-section.footer .col-acciones-footer ul {
-  /* Grosor: usar semi-bold cuando sea posible */
-  font-weight: var(--grosor-fuente-semi-bold);
-}
-
-/* Ajustes de tamaño específicos (aumentos moderados) */
-.boton { font-size: 22px; }
-ul.lang-inv li a { font-size: 18px; }
-section.portada .content-portada span.fecha { font-size: 26px; }
-section.ceremonia-fiesta .info-col .info-box p { font-size: 22px; }
-section.fiesta .item-fiesta p { font-size: 22px; }
-section.instagram .hashtag { font-size: 48px; }
-footer p { font-size: 18px; }
-.modal-dialog form label { font-size: 24px; }
-.modal .modal-content-2 p { font-size: 22px; }
-
-/* Si quieres que el cambio sea aún más visible, puedo aplicar text-shadow para "engrosar" la letra manuscrita */
 
 /* Modales */
 
