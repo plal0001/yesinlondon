@@ -572,8 +572,8 @@ section.portada .content-portada .iniciales span {
   font-family: var(--font-inicio);
   font-weight: var(--grosor-inicio);
   color: var(--color-iniciales);
-  font-size: 40px;
-  line-height: 120px;
+  font-size: 60px;
+  line-height: 80px;
   padding: 0 5px;
 }
 
@@ -594,10 +594,19 @@ section.portada .iniciales .ampersand-portada path {
 
 section.portada .content-portada .nombres p {
   color: var(--color-nombres);
-  font-size: 60px;
+  font-size: 24px;
   font-family: var(--font-nombres-portada);
   font-weight: var(--grosor-nombres-portada);
   text-transform: uppercase;
+}
+
+/* Modal: aumentar tamaño de nombres en modalMusica (.nombres-modal-musica) */
+.nombres-modal-musica .nombres p {
+  font-size: 40px;
+  line-height: 40px;
+  font-family: var(--font-nombres-portada);
+  font-weight: var(--grosor-nombres-portada);
+  text-transform: none;
 }
 
 section.portada .box-frase-portada {
@@ -1602,6 +1611,39 @@ footer svg.firma-footer .x-fixdate {
 #modalMusica .boton {
   margin: 0 5px;
 }
+
+/* Ajustes visuales para elementos que usan Indie Flower: un poco más gordo y algo más grande */
+/* Evitamos tocar selectores muy específicos de la portada para no romper el layout grande. */
+.boton,
+.modal.modal-transparent .modal-header h3,
+ul.lang-inv li a,
+section.portada .content-portada span.fecha,
+section.ceremonia-fiesta .info-col .info-box p,
+section.fiesta .item-fiesta p,
+section.instagram .hashtag,
+footer,
+footer p,
+.modal-dialog,
+.modal-dialog form label,
+.modal .modal-content-2 p,
+#modalMusica .modal-content,
+section.footer .col-acciones-footer ul {
+  /* Grosor: usar semi-bold cuando sea posible */
+  font-weight: var(--grosor-fuente-semi-bold);
+}
+
+/* Ajustes de tamaño específicos (aumentos moderados) */
+.boton { font-size: 18px; }
+ul.lang-inv li a { font-size: 15px; }
+section.portada .content-portada span.fecha { font-size: 22px; }
+section.ceremonia-fiesta .info-col .info-box p { font-size: 18px; }
+section.fiesta .item-fiesta p { font-size: 18px; }
+section.instagram .hashtag { font-size: 44px; }
+footer p { font-size: 14px; }
+.modal-dialog form label { font-size: 19px; }
+.modal .modal-content-2 p { font-size: 18px; }
+
+/* Si quieres que el cambio sea aún más visible, puedo aplicar text-shadow para "engrosar" la letra manuscrita */
 
 /* Modales */
 
