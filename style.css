@@ -11,7 +11,7 @@
 
   /* Grosor fuentes */
   --grosor-fuente-light: 300;
-  --grosor-fuente-regular: 400;
+  --grosor-fuente-regular: 450;
   --grosor-fuente-semi-bold: 600;
   --grosor-fuente-bold: 700;
 
@@ -566,24 +566,15 @@ section.portada .content-portada .iniciales span {
   padding: 0 5px;
 }
 
-section.portada .content-portada .inicio span {
-  color: var(--color-iniciales);
-  font-size: 100px;
-  line-height: 120px;
-  font-family: var(--font-inicio);
-  font-weight: var(--grosor-inicio);
-  padding: 0 5px;
-}
 
-/* Aplicar la misma fuente al bloque .inicio usado en el modal de música u otros lugares
-   que no estén dentro de la sección .portada. Esto asegura que "Yes in London" use
-   la variable --font-inicio incluso fuera de la portada. Ajusta tamaño si hace falta. */
 .nombres-modal-musica .inicio span,
 .nombres-modal-musica .inicio {
   font-family: var(--font-inicio);
   font-weight: var(--grosor-inicio);
-  /* no forzamos tamaño aquí; si quieres tamaño específico descomenta y ajusta */
-  /* font-size: 48px; line-height: 56px; */
+  color: var(--color-iniciales);
+  font-size: 100px;
+  line-height: 120px;
+  padding: 0 5px;
 }
 
 section.portada .iniciales .ampersand-portada {
