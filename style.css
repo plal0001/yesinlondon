@@ -1882,4 +1882,29 @@ section.galeria a {
   margin: 0 6px; /* separar ligeramente las opciones */
 }
 
+/* Contenedor para centrar y dar espacio */
+.transporte-container {
+    gap: 15px;
+    margin-top: 10px;
+}
+
+/* Reducir el tamaño del círculo (radio button) */
+.transporte-container .custom-control-label::before,
+.transporte-container .custom-control-label::after {
+    width: 1rem;  /* Tamaño reducido */
+    height: 1rem;
+    top: 0.25rem;
+}
+
+/* Reducir el tamaño del texto */
+.label-transporte {
+    font-size: 0.85rem !important; /* Más pequeño que el estándar */
+    cursor: pointer;
+    line-height: 1.5;
+}
+
+/* Ajuste para que el check interno (punto) encaje en el nuevo tamaño */
+.transporte-container .custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
 

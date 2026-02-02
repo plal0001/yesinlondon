@@ -20,7 +20,7 @@
 <link rel='stylesheet' href='./bootstrap.min.css?v=1699502315'/><link rel='stylesheet' href='./slick.css?v=1699502316'/>
 <link rel='stylesheet' href='./slick-theme.css?v=1699502316'/><link rel='stylesheet' href='./jquery.fancybox.min.css?v=1699502315'/>
 <link rel='stylesheet' href='./addEvent.css?v=1699502314'/><link rel='stylesheet' href='./aos.css?v=1699502314'/>
-<link rel='stylesheet' href='./vars.css?v=1710199316'/><link rel='stylesheet' href='./style.css?v=1710517032'/>
+<link rel='stylesheet' href='./vars.css?v=1710199316'/><link rel='stylesheet' href='./style.css?v=1720517032'/>
 <link rel='stylesheet' href='./responsive.css?v=1701437739'/>
 
 <!-- Color para navegadores moviles -->
@@ -797,6 +797,21 @@
                     </div>
                     <div class="form-group">
                       <textarea class="form-control" name="alergenos" rows="2" placeholder="Alérgenos e intolerancias"></textarea>
+                    </div>
+                    <div>¿Cómo vas a venir?</div>
+                    <div class="form-group d-flex justify-content-around custom-control custom-radio custom-control-inline transporte-container">
+                      <div class="form-check">
+                        <input class="custom-control-input" type="radio" name="transporte_0" value="coche" id="transporte_coche_0" checked>
+                        <label class="custom-control-label label-transporte" for="checkCoche_0">Coche propio</label>
+                      </div>
+                      <div class="form-check">
+                        <input class="custom-control-input" type="radio" name="transporte_0" value="carolina" id="transporte_carolina_0">
+                        <label class="custom-control-label label-transporte" for="checkCarolina_0">Autobús (La Carolina)</label>
+                      </div>
+                      <div class="form-check">
+                        <input class="custom-control-input" type="radio" name="transporte_0" value="guarroman" id="transporte_guarroman_0" checked>
+                        <label class="custom-control-label label-transporte" for="checkGuarroman_0">Autobús (Guarromán)</label>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -1699,6 +1714,20 @@ document.addEventListener('DOMContentLoaded', function() {
                 <input type="text" class="form-control mb-2" name="nombre" placeholder="Nombre completo" required>
                 <input type="text" class="form-control mb-2" name="telefono" placeholder="Teléfono" required>
                 <textarea class="form-control" name="alergenos" rows="2" placeholder="Alérgenos"></textarea>
+                <div class="form-group d-flex justify-content-around custom-control custom-radio custom-control-inline transporte-container">
+                      <div class="form-check">
+                        <input class="custom-control-input" type="radio" name="transporte_${index}" value="coche" id="transporte_coche_${index}" checked>
+                        <label class="custom-control-label label-transporte" for="checkCoche_${index}">Coche propio</label>
+                      </div>
+                      <div class="form-check">
+                        <input class="custom-control-input" type="radio" name="transporte_${index}" value="carolina" id="transporte_carolina_${index}">
+                        <label class="custom-control-label label-transporte" for="checkCarolina_${index}">Autobús (La Carolina)</label>
+                      </div>
+                      <div class="form-check">
+                        <input class="custom-control-input" type="radio" name="transporte_${index}" value="guarroman" id="transporte_guarroman_${index}" checked>
+                        <label class="custom-control-label label-transporte" for="checkGuarroman_${index}">Autobús (Guarromán)</label>
+                      </div>
+                    </div>
             </div>`;
         contenedor.insertAdjacentHTML('beforeend', html);
     });
@@ -1728,12 +1757,18 @@ document.addEventListener('DOMContentLoaded', function() {
                 // Extraer datos del bloque actual
                 const radioSi = bloque.querySelector('input[value="Si"]');
                 const asistencia = radioSi.checked ? "Si" : "No";
+
+                // Capturas el radio que esté seleccionado (checked) dentro de este bloque
+                const radioTransporte = bloque.querySelector('input[name^="transporte"]:checked');
+                // Si existe (siempre habrá uno si dejas uno por defecto como 'checked'), sacas su valor
+                const transporte = radioTransporte ? radioTransporte.value : "No especificado";
                 
                 // Mapeo exacto a tus campos de Google
                 params.append('entry.2050572077', asistencia);
                 params.append('entry.485461905', bloque.querySelector('[name="nombre"]').value);
                 params.append('entry.1732470359', bloque.querySelector('[name="telefono"]').value);
                 params.append('entry.172609796', bloque.querySelector('[name="alergenos"]').value);
+                params.append('entry.1646618315',transporte);
 
                 // Envío individual
                 await fetch(url, {
