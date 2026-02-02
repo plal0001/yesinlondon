@@ -1718,7 +1718,7 @@ footer svg.firma-footer .x-fixdate {
   margin-top: 0;
 }
 
-.boton.confirmar-asistencia {
+a.boton.confirmar-asistencia {
   /* Mantener mismo color base que otros botones pero ligeramente más oscuro */
   background: var(--color-fondo-btn-asistencia);
   color: var(--color-txt-btns);
@@ -1731,18 +1731,6 @@ footer svg.firma-footer .x-fixdate {
   transition: transform 0.18s ease, box-shadow 0.18s ease, filter 0.18s ease;
 }
 
-.boton.confirmar-asistencia:hover,
-.boton.confirmar-asistencia:focus {
-  transform: translateY(-2px);
-  box-shadow: 0 14px 32px rgba(0,0,0,0.12);
-  filter: brightness(0.88);
-  text-decoration: none;
-}
-
-.boton.confirmar-asistencia:active {
-  transform: translateY(-1px);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.10);
-}
 #modalSugerirCancion input {
   text-align: center;
   background: none;
