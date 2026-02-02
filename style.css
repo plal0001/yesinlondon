@@ -1865,38 +1865,8 @@ section.galeria a {
   margin-bottom: 30px;
 }
 
-/* Recuperar el estilo del label de pregunta */
-.label-pregunta {
-    font-family: var(--fuente-2);
-    font-weight: 700;
-    color: var(--color-titulos-cards);
-    display: block;
-    text-align: center;
-    margin-bottom: 15px;
-    font-size: 16px;
-}
 
-/* Contenedor de transporte para que no rompa el flujo */
-.transporte-container {
-    background: rgba(0,0,0,0.02); /* Un fondo muy ligero para agrupar visualmente */
-    padding: 15px;
-    border-radius: 10px;
-    gap: 10px;
-}
 
-/* Hacer los radios de transporte más pequeños que los principales */
-.label-transporte {
-    font-size: 13px !important; /* Más pequeño */
-    color: #666;
-    padding-left: 25px; /* Espacio para el check */
-}
-
-.transporte-container .custom-control-label::before, 
-.transporte-container .custom-control-label::after {
-    width: 16px !important;  /* Tamaño reducido */
-    height: 16px !important;
-    top: 3px !important;
-}
 
 
 
