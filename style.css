@@ -688,6 +688,17 @@ section.portada .portada-container .adorno-gota .st0 {
   stroke: none;
 }
 
+section.portada .portada-container .adorno-poste {
+  width: 100px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+section.portada .portada-container .adorno-poste .st0 {
+  fill: var(--color-adorno-frase-portada);
+  stroke: none;
+}
+
 /* ---------- */
 
 /* Adornos de esquinas */
