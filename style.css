@@ -1227,20 +1227,13 @@ section.fiesta .item-fiesta .info-box::before {
   filter: blur(4px); 
   
   /* Difuminado de los bordes (Efecto viñeta/suave) */
-  mask-image: radial-gradient(circle, rgb(255, 255, 255) 40%, transparent 100%);
-  -webkit-mask-image: radial-gradient(circle, rgb(255, 255, 255) 40%, transparent 100%);
+  mask-image: radial-gradient(circle, rgb(255, 255, 255) 70%, transparent 100%);
+  -webkit-mask-image: radial-gradient(circle, rgb(255, 255, 255) 70%, transparent 100%);
   
   z-index: -1; /* Se coloca detrás del contenido */
   transform: scale(1.1); /* Evita bordes blancos por el blur */
 }
 
-section.fiesta .item-fiesta .info-box::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: var(--color-fondo-item-fiesta); /* clave */
-  z-index: 1;
-}
 
 section.fiesta .box-color-col {
   margin: 0 auto;
