@@ -700,6 +700,18 @@ section.portada .portada-container .adorno-poste .st0 {
 }
 /* ----- timeline ----- */
 /* Contenedor principal */
+
+section.fiesta .timeline-container .adorno-timeline {
+  width: 100px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+section.fiesta .timeline-container .adorno-timeline .st0 {
+  fill: var(--color-poste);
+  stroke: none;
+}
+
 .timeline-container {
   position: relative;
   padding: 40px 0;
@@ -763,10 +775,6 @@ section.portada .portada-container .adorno-poste .st0 {
   margin: 0;
 }
 
-.adorno-timeline {
-  width: 70px; /* Tamaño de los iconos */
-  height: auto;
-}
 
 /* Adornos de esquinas */
 
