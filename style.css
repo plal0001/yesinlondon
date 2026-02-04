@@ -699,22 +699,14 @@ section.portada .portada-container .adorno-poste .st0 {
   stroke: none;
 }
 /* ----- timeline ----- */
-section.fiesta .container .adorno-timeline {
-  width: 50px;
-  height: auto;
-  margin-bottom: 15px;
-}
-
-section.fiesta .container .adorno-timeline .st0 {
-  fill: var(--color-poste);
-  stroke: none;
-}
+/* ----- timeline ----- */
 .timeline-container {
   position: relative;
   padding: 40px 0;
+  overflow: hidden; /* Evita scrolls horizontales inesperados */
 }
 
-/* La línea vertical */
+/* La línea vertical central */
 .timeline-container::before {
   content: '';
   position: absolute;
@@ -722,51 +714,49 @@ section.fiesta .container .adorno-timeline .st0 {
   top: 0;
   bottom: 0;
   width: 2px;
-  background: var(--color-poste);
+  background: var(--color-poste, #ccc); /* Color por defecto si la variable falla */
   transform: translateX(-50%);
 }
 
 .timeline-item {
-  margin-bottom: 40px; /* Espacio entre eventos */
+  position: relative;
+  margin-bottom: 60px; /* Más espacio para que luzca mejor */
 }
 
-.adorno-timeline {
-  width: 100px; /* Tamaño del icono */
-  height: auto;
-  padding: 5px;
-}
-
-.hora {
-  font-weight: bold;
-  font-size: 50px;
-  color: var(--color-titulos);
-  display: inline-block;
-  padding: 0 15px;
-  font: var(--fuente-iniciales)
-}
-
-/* Ajuste de márgenes para que "toquen" la línea */
-.content-left {
-  padding-right: 20px !important;
-}
-
-.content-right {
-  padding-left: 20px !important;
-}
-  /* Un pequeño punto donde el item toca la línea (opcional) */
+/* EL PUNTO: Se aplica a la fila para que esté centrado */
 .timeline-item::after {
   content: '';
   position: absolute;
   left: 50%;
   top: 50%;
-  width: 12px;
-  height: 12px;
-  background: var(--color-poste);
+  width: 14px;
+  height: 14px;
+  background: white; /* Fondo blanco para que destaque */
+  border: 2px solid var(--color-poste, #ccc); /* Borde del color de la línea */
   border-radius: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
 }
 
+.hora {
+  font-weight: bold;
+  font-size: 40px; /* Ajustado para que no rompa el layout */
+  color: var(--color-titulos);
+  font-family: var(--fuente-iniciales);
+  line-height: 1;
+}
+
+.adorno-timeline {
+  width: 60px; /* Tamaño más controlado */
+  height: auto;
+  /* Filtro opcional por si tus SVG son negros y los quieres de un color variable */
+  /* filter: drop-shadow(0px 0px 1px black); */
+}
+
+/* Ajustes de Bootstrap para asegurar contacto con la línea */
+.timeline-item .col-6 {
+  padding: 0 30px !important; /* Espacio entre el contenido y el punto */
+}
 
 /* ---------- */
 
