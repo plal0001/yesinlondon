@@ -699,6 +699,59 @@ section.portada .portada-container .adorno-poste .st0 {
   stroke: none;
 }
 
+section.fiesta .container .adorno-timeline {
+  width: 50px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+section.fiesta .container .adorno-timeline .st0 {
+  fill: var(--color-poste);
+  stroke: none;
+}
+
+.timeline-container {
+  position: relative;
+  padding: 40px 0;
+}
+
+/* La línea vertical */
+.timeline-container::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--color-poste); /* Color de la línea */
+  transform: translateX(-50%);
+}
+
+.timeline-item {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.hora {
+  font-weight: bold;
+  font-size: 1.2rem;
+  font: var(--fuente-iniciales);
+}
+
+/* Un pequeño punto donde el item toca la línea (opcional) */
+.timeline-item::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 12px;
+  height: 12px;
+  background: #8e8e8e;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
 /* ---------- */
 
 /* Adornos de esquinas */
