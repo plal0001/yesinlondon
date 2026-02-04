@@ -698,7 +698,7 @@ section.portada .portada-container .adorno-poste .st0 {
   fill: var(--color-poste);
   stroke: none;
 }
-
+/* ----- timeline ----- */
 section.fiesta .container .adorno-timeline {
   width: 50px;
   height: auto;
@@ -709,10 +709,9 @@ section.fiesta .container .adorno-timeline .st0 {
   fill: var(--color-poste);
   stroke: none;
 }
-
 .timeline-container {
   position: relative;
-  padding: 40px 0;
+  padding: 50px 0;
 }
 
 /* La línea vertical */
@@ -723,33 +722,35 @@ section.fiesta .container .adorno-timeline .st0 {
   top: 0;
   bottom: 0;
   width: 2px;
-  background: var(--color-poste); /* Color de la línea */
+  background: #e0e0e0;
   transform: translateX(-50%);
 }
 
 .timeline-item {
-  margin-bottom: 30px;
-  position: relative;
+  margin-bottom: 40px; /* Espacio entre eventos */
+}
+
+.adorno-timeline {
+  width: 60px; /* Tamaño del icono */
+  height: auto;
+  padding: 5px;
 }
 
 .hora {
   font-weight: bold;
-  font-size: 1.2rem;
-  font: var(--fuente-iniciales);
+  font-size: 1.1rem;
+  color: #555;
+  display: inline-block;
+  padding: 0 15px;
 }
 
-/* Un pequeño punto donde el item toca la línea (opcional) */
-.timeline-item::after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  width: 12px;
-  height: 12px;
-  background: #8e8e8e;
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
+/* Ajuste de márgenes para que "toquen" la línea */
+.content-left {
+  padding-right: 20px !important;
+}
+
+.content-right {
+  padding-left: 20px !important;
 }
 
 /* ---------- */
