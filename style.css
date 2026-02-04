@@ -1232,6 +1232,8 @@ section.fiesta .item-fiesta .info-box::before {
   
   z-index: -1; /* Se coloca detrás del contenido */
   transform: scale(1.1); /* Evita bordes blancos por el blur */
+
+  text-shadow: var(--color-adorno-titulo-eventos);
 }
 
 
