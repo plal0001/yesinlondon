@@ -1192,6 +1192,40 @@ section.fiesta .item-fiesta p {
 section.fiesta .item-fiesta .content-item-fiesta {
   padding: 30px;
   height: auto;
+  position: relative;
+  overflow: hidden; /* Evita que el desenfoque se salga de los bordes */
+  z-index: 1;
+  border-radius: 15px; /* Opcional: para suavizar las esquinas del recuadro */
+}
+
+section.fiesta .item-fiesta .content-item-fiesta::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+  /* Configuración de la imagen */
+  background-image: var(--bg-image); 
+  background-size: cover;
+  background-position: center;
+  
+  /* Difuminado de la imagen */
+  filter: blur(4px) brightness(0.7); 
+  
+  /* Difuminado de los bordes (Efecto viñeta/suave) */
+  mask-image: radial-gradient(circle, black 60%, transparent 100%);
+  -webkit-mask-image: radial-gradient(circle, black 60%, transparent 100%);
+  
+  z-index: -1; /* Se coloca detrás del contenido */
+  transform: scale(1.1); /* Evita bordes blancos por el blur */
+}
+
+section.fiesta .item-fiesta .info-box{
+  background-color: rgba(0, 0, 0, 0.2); /* Oscurece un poco el fondo si es necesario */
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
 }
 
 section.fiesta .box-color-col {
