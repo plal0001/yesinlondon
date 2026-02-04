@@ -1224,7 +1224,11 @@ section.fiesta .item-fiesta .info-box::before {
   background-position: center;
   
   /* Difuminado de la imagen */
-  filter: blur(4px) brightness(0.3); 
+  filter: blur(4px); 
+  
+  /* Difuminado de los bordes (Efecto viñeta/suave) */
+  mask-image: radial-gradient(circle, rgb(255, 255, 255) 40%, transparent 100%);
+  -webkit-mask-image: radial-gradient(circle, rgb(255, 255, 255) 40%, transparent 100%);
   
   z-index: -1; /* Se coloca detrás del contenido */
   transform: scale(1.1); /* Evita bordes blancos por el blur */
