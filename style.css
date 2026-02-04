@@ -695,7 +695,7 @@ section.portada .portada-container .adorno-poste {
 }
 
 section.portada .portada-container .adorno-poste .st0 {
-  fill: var(--color-adorno-frase-portada);
+  fill: var(--color-poste);
   stroke: none;
 }
 
