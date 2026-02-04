@@ -699,14 +699,13 @@ section.portada .portada-container .adorno-poste .st0 {
   stroke: none;
 }
 /* ----- timeline ----- */
-/* ----- timeline ----- */
+/* Contenedor principal */
 .timeline-container {
   position: relative;
   padding: 40px 0;
-  overflow: hidden; /* Evita scrolls horizontales inesperados */
 }
 
-/* La línea vertical central */
+/* La línea vertical */
 .timeline-container::before {
   content: '';
   position: absolute;
@@ -714,97 +713,60 @@ section.portada .portada-container .adorno-poste .st0 {
   top: 0;
   bottom: 0;
   width: 2px;
-  background: var(--color-poste, #ccc); /* Color por defecto si la variable falla */
+  background: var(--color-poste);
   transform: translateX(-50%);
 }
 
+/* El punto en la línea (donde marcaste los círculos) */
 .timeline-item {
   position: relative;
-  margin-bottom: 60px; /* Más espacio para que luzca mejor */
+  margin-bottom: 50px;
 }
 
-/* EL PUNTO: Se aplica a la fila para que esté centrado */
 .timeline-item::after {
   content: '';
   position: absolute;
   left: 50%;
   top: 50%;
-  width: 14px;
-  height: 14px;
-  background: white; /* Fondo blanco para que destaque */
-  border: 2px solid var(--color-poste, #ccc); /* Borde del color de la línea */
+  width: 12px;
+  height: 12px;
+  background: var(--color-poste); /* O el color que prefieras para el punto */
   border-radius: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
 }
 
+/* ALINEACIÓN HACIA EL CENTRO (Los círculos que dibujaste) */
+.timeline-content {
+  display: flex;
+  align-items: center;
+}
+
+/* Columna izquierda: empuja el contenido a la derecha (hacia la línea) */
+.timeline-item .col-6.text-end {
+  justify-content: flex-end;
+  padding-right: 25px !important; /* Espacio entre el icono y el punto */
+}
+
+/* Columna derecha: empuja el contenido a la izquierda (hacia la línea) */
+.timeline-item .col-6.text-start {
+  justify-content: flex-start;
+  padding-left: 25px !important; /* Espacio entre el texto y el punto */
+}
+
+/* Ajuste de los elementos */
 .hora {
   font-weight: bold;
-  font-size: 40px; /* Ajustado para que no rompa el layout */
+  font-size: 35px; /* Ajusta según tu diseño */
   color: var(--color-titulos);
   font-family: var(--fuente-iniciales);
-  line-height: 1;
+  margin: 0;
 }
 
 .adorno-timeline {
-  width: 60px; /* Tamaño más controlado */
-  height: auto;
-  /* Filtro opcional por si tus SVG son negros y los quieres de un color variable */
-  /* filter: drop-shadow(0px 0px 1px black); */
-}
-
-/* Ajustes de Bootstrap para asegurar contacto con la línea */
-.timeline-item .col-6 {
-  padding: 0 30px !important; /* Espacio entre el contenido y el punto */
-}
-
-/* ---------- */
-
-/* Adornos de esquinas */
-
-.box-bordes-adorno {
-  border-style: solid;
-}
-
-.box-bordes-adorno {
-  border-width: 1px;
-}
-
-.box-bordes-adorno .circulo-adorno {
-  stroke-width: 1px;
-}
-
-.box-bordes-adorno {
-  position: relative;
-}
-
-.box-bordes-adorno .adorno-esquina {
-  z-index: 99;
-  position: absolute;
-  width: 37px;
+  width: 50px; /* Tamaño de los iconos */
   height: auto;
 }
-
-.box-bordes-adorno .adorno-esquina-0 {
-  top: -1px;
-  left: -1px;
-}
-.box-bordes-adorno .adorno-esquina-1 {
-  top: -1px;
-  right: -1px;
-  transform: scaleX(-1);
-}
-.box-bordes-adorno .adorno-esquina-2 {
-  bottom: -1px;
-  left: -1px;
-  transform: scaleY(-1);
-}
-.box-bordes-adorno .adorno-esquina-3 {
-  bottom: -1px;
-  right: -1px;
-  transform: scale(-1, -1);
-}
-
 /* ---------- */
 
 /* Adornos titulos secciones */
