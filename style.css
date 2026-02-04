@@ -757,14 +757,14 @@ section.portada .portada-container .adorno-poste .st0 {
 /* Ajuste de los elementos */
 .hora {
   font-weight: bold;
-  font-size: 35px; /* Ajusta según tu diseño */
+  font-size: 50px; /* Ajusta según tu diseño */
   color: var(--color-titulos);
   font-family: var(--fuente-iniciales);
   margin: 0;
 }
 
 .adorno-timeline {
-  width: 50px; /* Tamaño de los iconos */
+  width: 70px; /* Tamaño de los iconos */
   height: auto;
 }
 
