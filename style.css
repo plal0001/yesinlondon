@@ -767,6 +767,7 @@ section.fiesta .timeline-container .adorno-timeline .st0 {
 }
 
 .hora {
+  display: block; /* Asegura el salto de línea */
   font-weight: bold;
   font-size: 50px;
   color: var(--color-titulos);
@@ -777,6 +778,7 @@ section.fiesta .timeline-container .adorno-timeline .st0 {
 }
 
 .actividad {
+  display: block; /* Asegura el salto de línea */
   font-weight: bold;
   font-size: 20px;
   color: var(--color-titulos);
