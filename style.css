@@ -574,8 +574,8 @@ section.portada .content-portada .iniciales span {
   font-family: var(--font-inicio);
   font-weight: var(--grosor-inicio);
   color: var(--color-iniciales);
-  font-size: 60px;
-  line-height: 80px;
+  font-size: 40px;
+  line-height: 40px;
   padding: 0 5px;
 }
 
