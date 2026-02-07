@@ -649,7 +649,7 @@ section.portada .portada-container .adorno-esquina {
 
 section.portada .portada-container .adorno-esquina .st0 {
   fill: var(--color-esquinas-portada);
-  stroke: var(--color-esquinas-portada);
+  stroke: none;
 }
 section.portada .portada-container .adorno-esquina .st1 {
   stroke: var(--color-esquinas-portada);
