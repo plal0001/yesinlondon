@@ -774,7 +774,14 @@ section.fiesta .timeline-container .adorno-timeline .st0 {
   font-family: var(--fuente-iniciales);
   margin: 0;
 }
-
+/* Ajuste de los elementos */
+.actividad {
+  font-weight: bold;
+  font-size: 20px; /* Ajusta según tu diseño */
+  color: var(--color-titulos);
+  font-family: var(--fuente-1);
+  margin: 0;
+}
 
 /* Adornos de esquinas */
 
