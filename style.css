@@ -1751,19 +1751,11 @@ footer svg.firma-footer .x-fixdate {
 #modalMusica .adorno.adorno-modal-musica {
   width: 90px;
   height: auto;
-  transform: scaleY(-1);
 }
 
 #modalMusica .adorno.adorno-modal-musica path {
-  stroke-width: 1px;
-}
-
-#modalMusica .adorno.adorno-modal-musica path.ovalo {
+  stroke-width: 3px;
   fill: var(--color-adorno-modal-musica);
-}
-
-#modalMusica .adorno.adorno-modal-musica path.trazo {
-  stroke: var(--color-adorno-modal-musica);
 }
 
 #modalMusica .boton {
