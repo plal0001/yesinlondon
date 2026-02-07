@@ -1753,7 +1753,7 @@ footer svg.firma-footer .x-fixdate {
   height: auto;
 }
 
-#modalMusica .adorno.adorno-modal-musica path {
+#modalMusica .adorno.adorno-modal-musica .st0 {
   stroke-width: 3px;
   fill: var(--color-adorno-modal-musica);
 }
