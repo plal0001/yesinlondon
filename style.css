@@ -701,13 +701,13 @@ section.portada .portada-container .adorno-poste .st0 {
 /* ----- timeline ----- */
 /* Contenedor principal */
 
-section.fiesta .timeline-container .adorno-timeline {
+section.ceremonia-fiesta .timeline-container .adorno-timeline {
   width: 100px;
   height: auto;
   margin-bottom: 15px;
 }
 
-section.fiesta .timeline-container .adorno-timeline .st0 {
+section.ceremonia-fiesta .timeline-container .adorno-timeline .st0 {
   fill: var(--color-adorno-titulo-modal);
   stroke: none;
 }
