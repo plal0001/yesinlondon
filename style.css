@@ -766,25 +766,32 @@ section.fiesta .timeline-container .adorno-timeline .st0 {
   padding-left: 25px !important; /* Espacio entre el texto y el punto */
 }
 
-/* Ajuste de los elementos */
 .hora {
   font-weight: bold;
-  font-size: 50px; /* Ajusta según tu diseño */
+  font-size: 50px;
   color: var(--color-titulos);
   font-family: var(--fuente-iniciales);
   margin: 0;
+  line-height: 0.8; /* <--- Reduce el espacio vertical de la hora */
+  margin-bottom: 5px; /* <--- Controla manualmente la distancia con la actividad */
 }
-/* Ajuste de los elementos */
+
 .actividad {
   font-weight: bold;
-  font-size: 20px; /* Ajusta según tu diseño */
-  color: var(--color-poste);
+  font-size: 20px;
+  color: var(--color-titulos);
   font-family: var(--fuente-1);
   margin: 0;
+  line-height: 1.2; /* <--- Ajusta la altura de línea de la actividad */
 }
 
 .texto-item span {
   display: block;
+}
+
+.text-end .texto-item {
+  text-align: right;
+  width: 100%;
 }
 
 /* Adornos de esquinas */
