@@ -781,7 +781,7 @@ section.fiesta .timeline-container .adorno-timeline .st0 {
   display: block; /* Asegura el salto de línea */
   font-weight: bold;
   font-size: 20px;
-  color: var(--color-titulos);
+  color: var(--color-poste);
   font-family: var(--fuente-1);
   margin: 0;
   line-height: 1.2; /* <--- Ajusta la altura de línea de la actividad */
