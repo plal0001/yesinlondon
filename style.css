@@ -846,6 +846,16 @@ section.ceremonia-fiesta .timeline-container .adorno-timeline .st0 {
   transform: scale(-1, -1);
 }
 
+/* formato textos recordatorio */
+.recuerda 
+{
+  font-family: var(--fuente-1);
+  font-weight: var(--grosor-fuente-regular);
+  color: var(--color-subtitulos);
+  font-size: 18px;
+  line-height: 25px;
+}
+
 /* ---------- */
 
 /* Adornos titulos secciones */

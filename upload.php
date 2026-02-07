@@ -36,9 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     // Generar el script de alertas en JavaScript
     echo "<script type='text/javascript'>";
-    foreach ($messages as $message) {
-        echo "alert('$message');";
-    }
+    echo "alert('" . implode('\n', $messages) . "');";
     if ($success) {
         echo "alert('Todos los archivos se han subido correctamente.');";
     } else {
