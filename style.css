@@ -796,6 +796,11 @@ section.ceremonia-fiesta .timeline-container .adorno-timeline .st0 {
   width: 100%;
 }
 
+.text-start .texto-item {
+  text-align: left;
+  width: 100%;
+} 
+
 /* Adornos de esquinas */
 
 .box-bordes-adorno {
