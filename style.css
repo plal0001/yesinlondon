@@ -708,7 +708,7 @@ section.fiesta .timeline-container .adorno-timeline {
 }
 
 section.fiesta .timeline-container .adorno-timeline .st0 {
-  fill: var(--color-poste);
+  fill: var(--color-adorno-titulo-modal);
   stroke: none;
 }
 
@@ -725,7 +725,7 @@ section.fiesta .timeline-container .adorno-timeline .st0 {
   top: 0;
   bottom: 0;
   width: 2px;
-  background: var(--color-poste);
+  background: var(--color-adorno-titulo-modal);
   transform: translateX(-50%);
 }
 
@@ -742,7 +742,7 @@ section.fiesta .timeline-container .adorno-timeline .st0 {
   top: 50%;
   width: 12px;
   height: 12px;
-  background: var(--color-poste); /* O el color que prefieras para el punto */
+  background: var(--color-adorno-titulo-modal); /* O el color que prefieras para el punto */
   border-radius: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -1777,6 +1777,10 @@ footer svg.firma-footer .x-fixdate {
 }
 
 .modal .adorno-titulo path {
+  fill: var(--color-adorno-titulo-modal);
+}
+
+.adorno-titulo-timeline path {
   fill: var(--color-adorno-titulo-modal);
 }
 
