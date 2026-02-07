@@ -604,7 +604,7 @@ section.portada .content-portada .nombres p {
 
 /* Modal: aumentar tamaño de nombres en modalMusica (.nombres-modal-musica) */
 .nombres-modal-musica .nombres p {
-  font-size: 50px;
+  font-size: 80px;
   line-height: 40px;
   font-family: var(--font-nombres-portada);
   font-weight: var(--grosor-nombres-portada);
