@@ -1637,7 +1637,7 @@ footer svg.firma-footer .x-fixdate {
 }
 
 #modalMusica .adorno-esquina {
-  width: 150px;
+  width: 200px;
   height: auto;
   z-index: 99;
   position: absolute;
@@ -1749,7 +1749,7 @@ footer svg.firma-footer .x-fixdate {
 }
 
 #modalMusica .adorno.adorno-modal-musica {
-  width: 90px;
+  width: 180px;
   height: auto;
 }
 
