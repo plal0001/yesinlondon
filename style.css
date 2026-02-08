@@ -722,8 +722,8 @@ section.ceremonia-fiesta .timeline-container .adorno-timeline .st0 {
   content: '';
   position: absolute;
   left: 50%;
-  top: 0;
-  bottom: 0;
+  top: 40px;
+  bottom: 40px;
   width: 2px;
   background: var(--color-adorno-titulo-modal);
   transform: translateX(-50%);
@@ -1637,7 +1637,7 @@ footer svg.firma-footer .x-fixdate {
 }
 
 #modalMusica .adorno-esquina {
-  width: 200px;
+  width: 250px;
   height: auto;
   z-index: 99;
   position: absolute;
