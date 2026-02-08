@@ -1479,6 +1479,16 @@ section.footer .addeventatc span.nameBtn:hover {
   text-decoration: none;
 }
 
+section.footer .adorno-footer  {
+  width: 180px;
+  height: auto;
+}
+
+section.footer .adorno-footer .st0 {
+  stroke-width: none;
+  fill: var(--color-pallete-1);
+  stroke: var(--color-pallete-1);
+}
 /* ---------- */
 
 /* Musica de fondo */
