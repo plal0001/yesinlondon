@@ -2003,6 +2003,11 @@ section.galeria a {
   margin-bottom: 30px;
 }
 
+.texto-pregunta-form {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
 /* Selector específico para el botón dentro de info-box */
 .info-box a.boton.confirmar-asistencia {
   /* Color de fondo desde tu variable */
