@@ -67,7 +67,7 @@ body {
     color: #7a9b78; /* Color verde del tema */
     padding: 8px 20px;
     border-radius: 5px;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     transition: all 0.3s ease;
     cursor: pointer;
     margin-bottom: 15px;
@@ -1896,7 +1896,7 @@ footer svg.firma-footer .x-fixdate {
 }
 
 #modalSugerirCancion .form-control {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 #modalSugerirCancion .img-top-modal svg {
@@ -2006,6 +2006,7 @@ section.galeria a {
 .texto-pregunta-form {
   font-size: 24px;
   margin-bottom: 10px;
+  color: var(--color-pallete-1);
 }
 
 .info-text {
