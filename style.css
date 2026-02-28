@@ -2008,6 +2008,13 @@ section.galeria a {
   margin-bottom: 10px;
 }
 
+.info-text {
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-family: var(--fuente-2);
+  color: var(--color-nombres);
+}
+
 /* Selector específico para el botón dentro de info-box */
 .info-box a.boton.confirmar-asistencia {
   /* Color de fondo desde tu variable */
