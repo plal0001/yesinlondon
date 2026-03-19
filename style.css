@@ -194,6 +194,62 @@ body {
 .custom-control-input:focus ~ .custom-control-label::before {
   box-shadow: none !important;
 }
+/* 1. Contenedor principal: lo pasamos a columna para móvil */
+.transporte-container {
+  display: flex;
+  flex-direction: column; /* Uno debajo de otro por defecto */
+  gap: 10px;
+  margin-top: 15px;
+}
+
+/* 2. Ocultamos el radio button original de forma segura */
+.transporte-container .custom-control-input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* 3. Estilo del Label como si fuera un botón */
+.transporte-container .label-transporte {
+  display: block;
+  width: 100%;
+  padding: 12px 20px;
+  background-color: #ffffff;
+  border: 2px solid #e0e0e0;
+  border-radius: 25px; /* Bordes redondeados como tu diseño */
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 0; /* Quitamos márgenes extra */
+  font-size: 0.95rem;
+}
+
+/* 4. Quitamos los pseudoelementos ::before y ::after (los circulitos) */
+.transporte-container .label-transporte::before,
+.transporte-container .label-transporte::after {
+  display: none !important;
+}
+
+/* 5. Estado SELECCIONADO: Cuando el input está checked */
+.transporte-container .custom-control-input:checked + .label-transporte {
+  background-color: var(--color-checkbox); /* El verde de tu web */
+  border-color: var(--color-checkbox);
+  color: white; /* Texto en blanco para que resalte */
+  font-weight: bold;
+}
+
+/* 6. En pantallas más grandes (opcional), que se pongan en fila */
+@media (min-width: 768px) {
+  .transporte-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .transporte-container .form-check {
+    flex: 1;
+    margin: 0 5px;
+  }
+}
 
 /* end Forms */
 
