@@ -239,18 +239,6 @@ body {
   font-weight: bold;
 }
 
-/* 6. En pantallas más grandes (opcional), que se pongan en fila */
-@media (min-width: 768px) {
-  .transporte-container {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .transporte-container .form-check {
-    flex: 1;
-    margin: 0 5px;
-  }
-}
-
 /* end Forms */
 
 /* Botones */
